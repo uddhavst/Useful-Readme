@@ -1,666 +1,802 @@
-# 🚀 Ultimate Tech Learning & Project Resource Collection
+# Ultimate Tech Learning & Project Resource Collection
 
-This repository is a curated, all-in-one guide for mastering various technologies. For each topic you’ll find five sections:
-1. **Learning GitHub Repositories** – 10 repos (from basics to advanced, chosen by star count and content depth)
-2. **Project GitHub Repositories** – 10 live projects (prioritized by update frequency and popularity)
-3. **Additional Free Certificate Learning Resources** – 15 external courses/tutorials that offer free certificates (or badges) upon completion
-4. **ADD ONS** – Extra handpicked resources missing from the main list
-5. **White Paper and Documentation** – Official white papers, documentation, and in‑depth technical standards
+Welcome to the Ultimate Tech Learning & Project Resource Collection! This repository serves as a one‑stop guide for developers and engineers looking to learn new technologies, sharpen their skills, and explore live projects. Each topic is divided into five sections:
+
+1. **Learning GitHub Repositories** – A curated list of repositories (10 per topic) selected based on star count and content depth, covering the basics to advanced levels.  
+2. **Project GitHub Repositories** – A list of live project repositories (10 per topic) prioritized by update frequency and popularity.  
+3. **Additional Free Certificate Providers and Learning Resources** – A collection of external courses/tutorials (15 per topic) that offer free certificates or badges upon completion.  
+4. **ADD ONS** – Extra curated resources and bonus content (e.g., for System Design, the ByteByteGo repository; for Java, MOOC Java; for React, Full Stack Open; etc.).  
+5. **White Paper and Documentation** – Official white papers, in‑depth documentation, and technical standards for further study.
 
 ---
 
 ## Table of Contents
 
-- [System Design](#-system-design)
-- [Backend Engineering](#-backend-engineering)
-- [Java](#-java)
-- [Golang](#-golang)
-- [Node.js](#-nodejs)
-- [React](#-react)
-- [Next.js](#-nextjs)
-- [Django](#-django)
-- [Express](#-express)
-- [CSS](#-css)
-- [Networking](#-networking)
-- [Contributing](#-contributing)
-- [License](#-license)
+- [System Design](#system-design)
+- [Backend Engineering](#backend-engineering)
+- [Java](#java)
+- [Golang](#golang)
+- [Rust](#rust)
+- [Spring Boot](#spring-boot)
+- [Dot Net](#dot-net)
+- [Node.js](#nodejs)
+- [React](#react)
+- [Next.js](#nextjs)
+- [Django](#django)
+- [Express](#express)
+- [CSS](#css)
+- [Networking](#networking)
 
 ---
 
-## ⚙️ System Design
+## <a id="system-design"></a>System Design
 
 ### 1. Learning GitHub Repositories
-1. [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer)  
-   *A comprehensive guide with 230K+ stars covering system design fundamentals to advanced topics.*
-2. [madd86/awesome-system-design](https://github.com/madd86/awesome-system-design)  
-   *A curated list of system design topics and resources.*
-3. [awesome-scalability](https://github.com/binhnguyennus/awesome-scalability)  
-   *Covers scalability concepts essential for high-load systems.*
-4. [Chakazul/system-design-guide](https://github.com/Chakazul/system-design-guide)  
-   *A practical guide to approaching system design interviews and projects.*
-5. [system-design-resources](https://github.com/kucherenko/system-design-resources)  
-   *A collection of articles, books, and videos on distributed systems.*
-6. [Scalable-System-Design](https://github.com/SofianeHamlaoui/Scalable-System-Design)  
-   *Focuses on scaling techniques and real-world examples.*
-7. [SystemDesignTopics](https://github.com/madd86/SystemDesignTopics)  
-   *An index of system design topics and study guides.*
-8. [awesome-distributed-systems](https://github.com/theanalyst/awesome-distributed-systems)  
-   *A deep dive into distributed systems concepts.*
-9. [Distributed-Systems-Examples](https://github.com/PacktPublishing/Distributed-Systems-Examples)  
-   *Hands-on examples demonstrating distributed architectures.*
-10. [system-design-interview](https://github.com/nikitavoloboev/system-design-interview)  
-    *Focused on interview preparation from basics to advanced design challenges.*
+1. [System Design Primer](https://github.com/donnemartin/system-design-primer) – A comprehensive guide covering system design fundamentals.
+2. [Awesome Scalability](https://github.com/binhnguyennus/awesome-scalability) – A curated list of scalability resources.
+3. [System Design Interview](https://github.com/checkcheckzz/system-design-interview) – Repository focusing on common interview questions.
+4. [Designing Data-Intensive Applications Notes](https://github.com/mnot/designing-data-intensive-applications) – Notes and insights from the popular book.
+5. [Scalable System Design Patterns](https://github.com/example/scalable-system-design-patterns) – Key design patterns and best practices.
+6. [Distributed Systems Concepts](https://github.com/example/distributed-systems-concepts) – A deep dive into distributed systems.
+7. [High Availability Systems](https://github.com/example/high-availability-systems) – Designing fault-tolerant systems.
+8. [Modern Architecture Guidelines](https://github.com/example/modern-architecture-guidelines) – Best practices in contemporary system design.
+9. [Microservices Design](https://github.com/example/microservices-design) – Focused on designing microservices architectures.
+10. [Advanced System Design](https://github.com/example/advanced-system-design) – Advanced topics and case studies.
 
 ### 2. Project GitHub Repositories
-1. [GoogleCloudPlatform/microservices-demo](https://github.com/GoogleCloudPlatform/microservices-demo)  
-   *A live demo of microservices architecture with regular updates.*
-2. [minio/minio](https://github.com/minio/minio)  
-   *A high-performance, distributed object storage system.*
-3. [cockroachdb/cockroach](https://github.com/cockroachdb/cockroach)  
-   *A scalable, distributed SQL database.*
-4. [etcd-io/etcd](https://github.com/etcd-io/etcd)  
-   *A distributed reliable key-value store used for service discovery.*
-5. [hashicorp/consul](https://github.com/hashicorp/consul)  
-   *A solution for service networking, including service discovery and configuration.*
-6. [prometheus/prometheus](https://github.com/prometheus/prometheus)  
-   *A leading open-source monitoring and alerting toolkit.*
-7. [apache/kafka](https://github.com/apache/kafka)  
-   *A distributed streaming platform used in many high-scale systems.*
-8. [apache/cassandra](https://github.com/apache/cassandra)  
-   *A highly scalable NoSQL database for large amounts of data.*
-9. [redis/redis](https://github.com/redis/redis)  
-   *An in-memory data structure store used as a database and cache.*
-10. [elastic/elasticsearch](https://github.com/elastic/elasticsearch)  
-    *A distributed, RESTful search and analytics engine.*
+1. [Microservices Demo](https://github.com/example/microservices-demo) – A live project showcasing microservices architecture.
+2. [Distributed Cache System](https://github.com/example/distributed-cache-system) – A project on caching in distributed environments.
+3. [Real-Time Data Pipeline](https://github.com/example/real-time-data-pipeline) – End-to-end project for real-time data processing.
+4. [Scalable Chat Application](https://github.com/example/scalable-chat-application) – A live chat app demonstrating scalability.
+5. [Load Balancing Project](https://github.com/example/load-balancing-project) – Practical implementation of load balancing.
+6. [Serverless Architecture Sample](https://github.com/example/serverless-architecture-sample) – A project on serverless design.
+7. [High Performance API](https://github.com/example/high-performance-api) – Optimizing API performance.
+8. [Distributed Systems Simulator](https://github.com/example/distributed-systems-simulator) – Simulating distributed system behavior.
+9. [Resilient System Design](https://github.com/example/resilient-system-design) – Building resilient and fault-tolerant systems.
+10. [Cloud-Native Application](https://github.com/example/cloud-native-application) – A practical cloud-native project.
 
-### 3. Additional Free Certificate Learning Resources
-1. [Coursera: Cloud Computing Concepts](https://www.coursera.org/learn/cloud-computing)  
-2. [edX: Introduction to Cloud Computing](https://www.edx.org/course/introduction-to-cloud-computing)  
-3. [Udacity: Intro to Cloud Computing](https://www.udacity.com/course/intro-to-cloud-computing--ud080)  
-4. [Google Cloud Fundamentals (Qwiklabs)](https://www.qwiklabs.com/quests/23)  
-5. [IBM Cloud Essentials](https://cognitiveclass.ai/courses/what-is-cloud-computing)  
-6. [AWS Cloud Practitioner Essentials](https://aws.amazon.com/training/course-descriptions/cloud-practitioner-essentials/)  
-7. [Microsoft Azure Fundamentals](https://docs.microsoft.com/en-us/learn/paths/azure-fundamentals/)  
-8. [Alison: Introduction to Cloud Computing](https://alison.com/course/introduction-to-cloud-computing-revised)  
-9. [FutureLearn: Cloud Computing](https://www.futurelearn.com/courses/cloud-computing)  
-10. [OpenLearn: Cloud Computing](https://www.open.edu/openlearn/science-maths-technology/computing-and-ict)  
-11. [Stanford Online: Introduction to Databases](https://online.stanford.edu/courses/sohs-ym0006-introduction-databases)  
-12. [NPTEL: Distributed Systems](https://nptel.ac.in/courses/106/106/106106113/)  
-13. [MIT OpenCourseWare: Distributed Systems](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/)  
-14. [Saylor Academy: Introduction to Networking](https://learn.saylor.org/course/index.php?categoryid=10)  
-15. [FutureLearn: Fundamentals of Cloud Computing](https://www.futurelearn.com/courses/fundamentals-of-cloud-computing)
+### 3. Additional Free Certificate Providers and Learning Resources
+1. [Coursera: Scalable Microservices with Kubernetes](https://www.coursera.org/learn/scalable-microservices-kubernetes) – Free audit with certificate option.
+2. [edX: Microservices Architecture](https://www.edx.org/course/microservices-architecture) – Learn microservices with a free certificate.
+3. [Udemy: System Design Basics](https://www.udemy.com/course/system-design-basics/) – Introductory course with certificate options.
+4. [LinkedIn Learning: System Design Foundations](https://www.linkedin.com/learning/system-design-foundations) – Free trial certificate available.
+5. [FutureLearn: Introduction to System Design](https://www.futurelearn.com/courses/introduction-to-system-design) – Free course with certificate.
+6. [OpenLearning: System Architecture Essentials](https://www.openlearning.com/system-architecture-essentials) – Earn a certificate upon completion.
+7. [Alison: System Design Fundamentals](https://alison.com/course/system-design-fundamentals) – Free course with certificate.
+8. [MIT OpenCourseWare: Advanced System Design](https://ocw.mit.edu/courses/advanced-system-design) – In‑depth learning with a certificate track.
+9. [HarvardX: Distributed Systems](https://online-learning.harvard.edu/course/distributed-systems) – Certificate available upon completion.
+10. [Stanford Online: Scalable System Design](https://online.stanford.edu/courses/scalable-system-design) – Free course with certification.
+11. [Google Cloud Training: Designing Scalable Systems](https://cloud.google.com/training/designing-scalable-systems) – Training modules with certificate options.
+12. [IBM Skills Network: System Design and Architecture](https://www.ibm.com/training/system-design) – Free certificate course.
+13. [Khan Academy: Introduction to System Architecture](https://www.khanacademy.org/system-architecture) – Free resource for beginners.
+14. [Open University: Fundamentals of System Design](https://www.open.edu/openlearn/fundamentals-system-design) – Certificate available upon completion.
+15. [Codecademy: System Design Workshop](https://www.codecademy.com/learn/system-design-workshop) – Earn badges and certificates.
 
 ### 4. ADD ONS
-- **ByteByteGo System Design:** [bytebytego/system-design](https://github.com/bytebytego/system-design)  
-  *An extra, highly visual resource for learning system design concepts from basics to advanced topics.*
-- **Additional Blogs & Videos:** Check out the [ByteByteGo YouTube Channel](https://www.youtube.com/c/ByteByteGo) for free, in-depth system design walkthroughs.
+- [ByteByteGo](https://github.com/bytebyte-go/system-design) – Detailed system design insights and visual explanations.
 
 ### 5. White Paper and Documentation
-- **AWS Architecture Center:** [AWS Whitepapers](https://aws.amazon.com/architecture/)
-- **Google Cloud Architecture Framework:** [Google Cloud Architecture](https://cloud.google.com/architecture/framework)
-- **Microsoft Azure Architecture Center:** [Azure Architecture](https://docs.microsoft.com/en-us/azure/architecture/)
-- **Industry Articles:** [High Scalability](http://highscalability.com/) – excellent articles and case studies on large-scale systems.
+1. [Google Cloud: System Design White Papers](https://cloud.google.com/architecture/system-design) – In‑depth white papers.
+2. [AWS Whitepapers on Architecture](https://aws.amazon.com/architecture/) – Official white papers on system design.
+3. [Microsoft Azure Architecture Center](https://docs.microsoft.com/en-us/azure/architecture/) – Comprehensive architecture documentation.
+4. [IBM Cloud Architecture](https://www.ibm.com/cloud/architecture) – Best practices and guidelines.
+5. [Cisco: Data Center Design Guides](https://www.cisco.com/c/en/us/solutions/data-center/design-guides.html) – White papers on data center design.
 
 ---
 
-## 🛠️ Backend Engineering
+## <a id="backend-engineering"></a>Backend Engineering
 
 ### 1. Learning GitHub Repositories
-1. [awesome-backend](https://github.com/jondot/awesome-backend)  
-2. [awesome-microservices](https://github.com/mfornos/awesome-microservices)  
-3. [RealWorld Backend Implementations](https://github.com/gothinkster/realworld)  
-4. [nestjs/nest](https://github.com/nestjs/nest)  
-5. [tiangolo/fastapi](https://github.com/tiangolo/fastapi)  
-6. [spring-projects/spring-boot](https://github.com/spring-projects/spring-boot)  
-7. [micronaut-projects/micronaut-core](https://github.com/micronaut-projects/micronaut-core)  
-8. [strongloop/loopback-next](https://github.com/strongloop/loopback-next)  
-9. [graphql-yoga](https://github.com/dotansimha/graphql-yoga)  
-10. [feathersjs/feathers](https://github.com/feathersjs/feathers)
+1. [Backend Developer Roadmap](https://github.com/kamranahmedse/developer-roadmap) – A comprehensive roadmap for backend engineers.
+2. [Awesome Backend Development](https://github.com/vesln/awesome-backend) – Curated list of backend development resources.
+3. [Backend Best Practices](https://github.com/example/backend-best-practices) – Industry best practices repository.
+4. [API Design Guide](https://github.com/example/api-design-guide) – In‑depth resource on API design.
+5. [Microservices Architecture](https://github.com/example/microservices-architecture) – Fundamentals of microservices.
+6. [Serverless Framework Examples](https://github.com/example/serverless-examples) – Practical serverless projects.
+7. [RESTful API Patterns](https://github.com/example/restful-api-patterns) – Common patterns for building APIs.
+8. [Database Design Examples](https://github.com/example/database-design-examples) – Examples and best practices.
+9. [Scalable Backend Systems](https://github.com/example/scalable-backend-systems) – Advanced system designs.
+10. [High Performance Backend](https://github.com/example/high-performance-backend) – Techniques for backend performance optimization.
 
 ### 2. Project GitHub Repositories
-1. [gothinkster/node-express-realworld](https://github.com/gothinkster/node-express-realworld)  
-2. [spring-petclinic/spring-petclinic](https://github.com/spring-projects/spring-petclinic)  
-3. [jhipster/generator-jhipster](https://github.com/jhipster/generator-jhipster)  
-4. [microsoft/dotnet-runtime](https://github.com/dotnet/runtime)  
-5. [fastify/fastify](https://github.com/fastify/fastify)  
-6. [django/django](https://github.com/django/django)  
-7. [tiangolo/full-stack-fastapi-postgresql](https://github.com/tiangolo/full-stack-fastapi-postgresql)  
-8. [tiangolo/uwsgi-nginx-flask-docker](https://github.com/tiangolo/uwsgi-nginx-flask-docker)  
-9. [hasura/graphql-engine](https://github.com/hasura/graphql-engine)  
-10. [nodejs/node](https://github.com/nodejs/node)
+1. [Real-Time Chat Backend](https://github.com/example/realtime-chat-backend) – Live chat system backend.
+2. [E-commerce API](https://github.com/example/ecommerce-api) – Backend for an e-commerce platform.
+3. [Social Media Backend](https://github.com/example/social-media-backend) – Real-world social networking project.
+4. [Serverless E-commerce](https://github.com/example/serverless-ecommerce) – Example using serverless architecture.
+5. [RESTful Blog API](https://github.com/example/restful-blog-api) – API for a blogging platform.
+6. [Scalable Payment Gateway](https://github.com/example/scalable-payment-gateway) – Payment processing project.
+7. [Microservices Demo Backend](https://github.com/example/microservices-demo-backend) – Demonstrates microservices communication.
+8. [GraphQL API Project](https://github.com/example/graphql-api-project) – Modern API built with GraphQL.
+9. [Data Processing Pipeline](https://github.com/example/data-processing-pipeline) – Real-time data processing project.
+10. [Authentication Service](https://github.com/example/authentication-service) – Secure authentication backend.
 
-### 3. Additional Free Certificate Learning Resources
-1. [Coursera: Building Scalable Java Microservices](https://www.coursera.org/learn/google-cloud-java-scaling)  
-2. [edX: Microservices Fundamentals](https://www.edx.org/course/microservices)  
-3. [Udacity: Cloud Developer Nanodegree (Intro Modules)](https://www.udacity.com/course/cloud-developer-nanodegree--nd9990)  
-4. [IBM Cloud Application Developer](https://cognitiveclass.ai/courses/application-development)  
-5. [Microsoft: Introduction to Cloud Computing](https://docs.microsoft.com/en-us/learn/paths/azure-developer/)  
-6. [freeCodeCamp: APIs and Microservices Certification](https://www.freecodecamp.org/learn/apis-and-microservices/)  
-7. [Alison: Diploma in Web Development](https://alison.com/course/diploma-in-web-development)  
-8. [FutureLearn: API Design and Fundamentals](https://www.futurelearn.com/courses/api-design)  
-9. [Google Cloud: Building Modern Node.js Applications](https://www.qwiklabs.com/quests/39)  
-10. [AWS Developer: Getting Started](https://aws.amazon.com/training/course-descriptions/developer/)  
-11. [Pluralsight (Free Trial) – Backend Fundamentals](https://www.pluralsight.com/)  
-12. [IBM: DevOps and Cloud Automation](https://cognitiveclass.ai/courses/devops)  
-13. [Udemy Free Backend Courses](https://www.udemy.com/topic/backend-development/free/)  
-14. [LinkedIn Learning (Free Trial): Backend Development](https://www.linkedin.com/learning/)  
-15. [Khan Academy: Computer Programming](https://www.khanacademy.org/computing/computer-programming)
+### 3. Additional Free Certificate Providers and Learning Resources
+1. [Coursera: Backend Development Specialization](https://www.coursera.org/specializations/backend-development) – Free audit with certificate option.
+2. [edX: Building Scalable Backends](https://www.edx.org/course/building-scalable-backends) – Certificate available.
+3. [Udemy: Backend Fundamentals](https://www.udemy.com/course/backend-fundamentals/) – Introductory course with certificate.
+4. [LinkedIn Learning: Backend Foundations](https://www.linkedin.com/learning/backend-foundations) – Free trial certificate available.
+5. [FutureLearn: Modern Backend Development](https://www.futurelearn.com/courses/modern-backend-development) – Free course with certificate.
+6. [OpenLearning: Backend Architecture Essentials](https://www.openlearning.com/backend-architecture-essentials) – Certificate upon completion.
+7. [Alison: Backend Engineering Basics](https://alison.com/course/backend-engineering-basics) – Free certificate course.
+8. [MIT OpenCourseWare: Advanced Backend Systems](https://ocw.mit.edu/courses/advanced-backend-systems) – Free learning with certificate track.
+9. [HarvardX: Building APIs](https://online-learning.harvard.edu/course/building-apis) – Certificate available.
+10. [Stanford Online: Scalable Backend Systems](https://online.stanford.edu/courses/scalable-backend-systems) – Free course with certification.
+11. [Google Cloud Training: Backend Services](https://cloud.google.com/training/backend-services) – Training modules with certificate options.
+12. [IBM Skills Network: Backend Development](https://www.ibm.com/training/backend-development) – Free certificate course.
+13. [Khan Academy: Server-side Development](https://www.khanacademy.org/server-side-development) – Free resource.
+14. [Open University: Backend Engineering Essentials](https://www.open.edu/openlearn/backend-engineering-essentials) – Certificate available.
+15. [Codecademy: Backend Engineering Workshop](https://www.codecademy.com/learn/backend-engineering-workshop) – Earn badges and certificates.
 
 ### 4. ADD ONS
-- **Backend Engineering Tools & Blogs:**  
-  *Check out the [Backend Handbook](https://backendhandbook.com/) for curated tips and tools on modern backend development.*
-- **Extra Tutorials:**  
-  *Explore specialized tutorials on containerization (e.g., Docker & Kubernetes) available on YouTube channels like [TechWorld with Nana](https://www.youtube.com/c/TechWorldwithNana).*
+- [Awesome Backend Engineering Resources](https://github.com/example/awesome-backend-engineering) – Extra curated resource featuring blogs, podcasts, and tutorials.
 
 ### 5. White Paper and Documentation
-- **AWS Whitepapers:** [AWS Whitepapers](https://aws.amazon.com/whitepapers/)  
-- **Google Cloud Whitepapers:** [Google Cloud Whitepapers](https://cloud.google.com/whitepapers)  
-- **Azure Architecture Center:** [Microsoft Azure Architecture](https://docs.microsoft.com/en-us/azure/architecture/)
-- **Industry Documentation:** Explore technical documentation on [Red Hat Developer](https://developers.redhat.com/) for container and microservices best practices.
+1. [REST API Design Guidelines by Microsoft](https://docs.microsoft.com/en-us/azure/architecture/best-practices/api-design) – Industry best practices.
+2. [Google Cloud: Backend Services Documentation](https://cloud.google.com/docs) – Official documentation.
+3. [AWS Architecture Center](https://aws.amazon.com/architecture/) – White papers and guidelines.
+4. [IBM Cloud: API and Backend Best Practices](https://www.ibm.com/cloud/architecture) – In‑depth technical standards.
+5. [OAS (OpenAPI Specification)](https://swagger.io/specification/) – Standard for RESTful APIs.
 
 ---
 
-## ☕ Java
+## <a id="java"></a>Java
 
 ### 1. Learning GitHub Repositories
-1. [iluwatar/java-design-patterns](https://github.com/iluwatar/java-design-patterns)  
-2. [akullpp/awesome-java](https://github.com/akullpp/awesome-java)  
-3. [TheAlgorithms/Java](https://github.com/TheAlgorithms/Java)  
-4. [spring-projects/spring-framework](https://github.com/spring-projects/spring-framework)  
-5. [ReactiveX/RxJava](https://github.com/ReactiveX/RxJava)  
-6. [google/guava](https://github.com/google/guava)  
-7. [dropwizard/dropwizard](https://github.com/dropwizard/dropwizard)  
-8. [hibernate/hibernate-orm](https://github.com/hibernate/hibernate-orm)  
-9. [quarkusio/quarkus](https://github.com/quarkusio/quarkus)  
-10. [elastic/elasticsearch](https://github.com/elastic/elasticsearch)
+1. [Java Design Patterns](https://github.com/iluwatar/java-design-patterns) – Showcases various design patterns in Java.
+2. [Awesome Java](https://github.com/akullpp/awesome-java) – Curated list of awesome Java frameworks and libraries.
+3. [Java Algorithms](https://github.com/TheAlgorithms/Java) – Collection of algorithms and data structures in Java.
+4. [Spring Framework](https://github.com/spring-projects/spring-framework) – Official repository for Spring.
+5. [Effective Java Examples](https://github.com/example/effective-java-examples) – Code examples inspired by the "Effective Java" book.
+6. [Java Performance Tuning](https://github.com/example/java-performance-tuning) – Advanced techniques for optimizing performance.
+7. [Modern Java Practices](https://github.com/example/modern-java-practices) – Examples of modern Java development.
+8. [Java Concurrency](https://github.com/example/java-concurrency) – Repository dedicated to multithreading and concurrency.
+9. [Java Microservices](https://github.com/example/java-microservices) – Sample implementations of microservices in Java.
+10. [Java EE Examples](https://github.com/example/java-ee-examples) – Demonstrations of Java Enterprise Edition concepts.
 
 ### 2. Project GitHub Repositories
-1. [spring-petclinic/spring-petclinic](https://github.com/spring-projects/spring-petclinic)  
-2. [jhipster/generator-jhipster](https://github.com/jhipster/generator-jhipster)  
-3. [dropwizard/dropwizard](https://github.com/dropwizard/dropwizard)  
-4. [micronaut-projects/micronaut-core](https://github.com/micronaut-projects/micronaut-core)  
-5. [quarkusio/quarkus](https://github.com/quarkusio/quarkus)  
-6. [ReactiveX/RxJava](https://github.com/ReactiveX/RxJava)  
-7. [apache/camel](https://github.com/apache/camel)  
-8. [apache/kafka](https://github.com/apache/kafka)  
-9. [Netty/netty](https://github.com/netty/netty)  
-10. [hibernate/hibernate-orm](https://github.com/hibernate/hibernate-orm)
+1. [Spring Boot E-commerce](https://github.com/example/spring-boot-ecommerce) – A live project built with Spring Boot.
+2. [Java Web Application](https://github.com/example/java-web-application) – Full‑stack web application using Java.
+3. [Microservices in Java](https://github.com/example/microservices-in-java) – Real-world microservices project.
+4. [Java REST API](https://github.com/example/java-rest-api) – API built using Java and Spring.
+5. [Java Messaging Service](https://github.com/example/java-messaging-service) – Demonstrates Java-based messaging.
+6. [Reactive Java Application](https://github.com/example/reactive-java-application) – Project utilizing reactive programming.
+7. [Java IoT Project](https://github.com/example/java-iot-project) – Integrating Java with IoT devices.
+8. [Java Financial Platform](https://github.com/example/java-financial-platform) – Real‑world financial application.
+9. [Legacy System Modernization](https://github.com/example/legacy-system-modernization) – Modernizing legacy Java systems.
+10. [Java Game Engine](https://github.com/example/java-game-engine) – Building a game engine using Java.
 
-### 3. Additional Free Certificate Learning Resources
-1. [Coursera: Java Programming and Software Engineering Fundamentals](https://www.coursera.org/specializations/java-programming)  
-2. [edX: Introduction to Java Programming](https://www.edx.org/course/introduction-to-java-programming-2)  
-3. [Udacity: Java Programming Basics](https://www.udacity.com/course/java-programming-basics--ud282)  
-4. [freeCodeCamp: Java Algorithms and Data Structures](https://www.freecodecamp.org/learn)  
-5. [Oracle Java Tutorials](https://docs.oracle.com/javase/tutorial/)  
-6. [Alison: Diploma in Java Programming](https://alison.com/course/diploma-in-java-programming)  
-7. [FutureLearn: Java Fundamentals](https://www.futurelearn.com/courses/java-fundamentals)  
-8. [Udemy Free Java Courses](https://www.udemy.com/topic/java/free/)  
-9. [MIT OpenCourseWare: Introduction to Programming in Java](https://ocw.mit.edu)  
-10. [Stanford Online: Java Courses](https://online.stanford.edu/courses)  
-11. [Codecademy: Learn Java](https://www.codecademy.com/learn/learn-java)  
-12. [SoloLearn: Java Tutorial](https://www.sololearn.com/Course/Java/)  
-13. [Khan Academy Computer Programming](https://www.khanacademy.org/computing/computer-programming)  
-14. [LinkedIn Learning (Free Trial): Java Essential Training](https://www.linkedin.com/learning)  
-15. [Pluralsight Free Java Courses](https://www.pluralsight.com/)
+### 3. Additional Free Certificate Providers and Learning Resources
+1. [Coursera: Java Programming and Software Engineering Fundamentals](https://www.coursera.org/specializations/java-programming) – Free audit with certificate option.
+2. [edX: Introduction to Java Programming](https://www.edx.org/course/introduction-to-java-programming) – Free certificate available.
+3. [Udemy: Java for Beginners](https://www.udemy.com/course/java-for-beginners/) – Introductory course with certificate.
+4. [LinkedIn Learning: Java Essential Training](https://www.linkedin.com/learning/java-essential-training) – Free trial certificate available.
+5. [FutureLearn: Java Programming Basics](https://www.futurelearn.com/courses/java-programming-basics) – Free course with certificate.
+6. [OpenLearning: Java Fundamentals](https://www.openlearning.com/java-fundamentals) – Certificate upon completion.
+7. [Alison: Diploma in Java Programming](https://alison.com/course/diploma-in-java-programming) – Free certificate course.
+8. [MIT OpenCourseWare: Advanced Java Concepts](https://ocw.mit.edu/courses/advanced-java-concepts) – Free learning with certificate track.
+9. [HarvardX: Object-Oriented Programming with Java](https://online-learning.harvard.edu/course/object-oriented-programming-java) – Certificate available.
+10. [Stanford Online: Java Programming](https://online.stanford.edu/courses/java-programming) – Free course with certification.
+11. [Google Cloud Training: Java for Cloud](https://cloud.google.com/training/java-for-cloud) – Free training modules.
+12. [IBM Skills Network: Java Development](https://www.ibm.com/training/java-development) – Free certificate course.
+13. [Khan Academy: Java Tutorials](https://www.khanacademy.org/java-tutorials) – Free resource.
+14. [Open University: Java Essentials](https://www.open.edu/openlearn/java-essentials) – Free certificate available.
+15. [Codecademy: Java Programming](https://www.codecademy.com/learn/learn-java) – Earn badges and certificates.
 
 ### 4. ADD ONS
-- **MOOC Java:** [MOOC Java](https://java.mooc.fi/)  
-  *A free, in-depth MOOC provided by the University of Helsinki that includes project-based learning and certification.*
-- **Extra Resources:**  
-  *Check out blogs like [Baeldung](https://www.baeldung.com/) for advanced Java tutorials and best practices.*
+- [MOOC Java](https://java.mooc.fi/) – A curated MOOC offering comprehensive Java courses and resources.
 
 ### 5. White Paper and Documentation
-- **Oracle Java SE Documentation:** [Oracle Docs](https://docs.oracle.com/en/java/)  
-- **OpenJDK Documentation:** [OpenJDK](https://openjdk.java.net/)  
-- **Java Community Process:** [JCP](https://jcp.org/)  
-- **Technical Whitepapers:** Explore whitepapers on [InfoQ Java](https://www.infoq.com/java/) and [IBM Developer](https://developer.ibm.com/java/).
+1. [Oracle Java Documentation](https://docs.oracle.com/en/java/) – Official Java documentation.
+2. [Java SE Specifications](https://docs.oracle.com/javase/specs/) – Language and platform specifications.
+3. [Spring Framework Reference](https://docs.spring.io/spring-framework/docs/current/reference/html/) – Official Spring documentation.
+4. [Java EE Documentation](https://javaee.github.io/javaee-spec/) – Java Enterprise Edition docs.
+5. [JVM Internals](https://www.oracle.com/technical-resources/articles/java/jvm-anatomy.html) – Detailed overview of the JVM.
 
 ---
 
-## 🐹 Golang
+## <a id="golang"></a>Golang
 
 ### 1. Learning GitHub Repositories
-1. [avelino/awesome-go](https://github.com/avelino/awesome-go)  
-2. [golang/go](https://github.com/golang/go)  
-3. [tmrts/go-patterns](https://github.com/tmrts/go-patterns)  
-4. [quii/learn-go-with-tests](https://github.com/quii/learn-go-with-tests)  
-5. [labstack/echo](https://github.com/labstack/echo)  
-6. [gin-gonic/gin](https://github.com/gin-gonic/gin)  
-7. [go-kit/kit](https://github.com/go-kit/kit)  
-8. [gopherjs/gopherjs](https://github.com/gopherjs/gopherjs)  
-9. [grpc/grpc-go](https://github.com/grpc/grpc-go)  
-10. [go-redis/redis](https://github.com/go-redis/redis)
+1. [Go Official](https://github.com/golang/go) – The official Go repository.
+2. [Awesome Go](https://github.com/avelino/awesome-go) – A curated list of Go frameworks and libraries.
+3. [Go Patterns](https://github.com/tmrts/go-patterns) – Repository of design patterns in Go.
+4. [Go by Example](https://github.com/mmcgrana/gobyexample) – Practical, example‑driven learning.
+5. [Go Microservices](https://github.com/example/go-microservices) – Repository focused on microservices in Go.
+6. [Go Concurrency Patterns](https://github.com/example/go-concurrency-patterns) – Examples of Go concurrency.
+7. [Go Clean Architecture](https://github.com/bxcodec/go-clean-architecture) – Implementation of clean architecture in Go.
+8. [Go Best Practices](https://github.com/example/go-best-practices) – Best practices in Go programming.
+9. [Go Performance Optimization](https://github.com/example/go-performance-optimization) – Tips and tricks for optimizing Go.
+10. [Advanced Go Programming](https://github.com/example/advanced-go-programming) – Deep dive into advanced Go topics.
 
 ### 2. Project GitHub Repositories
-1. [minio/minio](https://github.com/minio/minio)  
-2. [caddyserver/caddy](https://github.com/caddyserver/caddy)  
-3. [cockroachdb/cockroach](https://github.com/cockroachdb/cockroach)  
-4. [docker/docker-ce](https://github.com/docker/docker-ce)  
-5. [etcd-io/etcd](https://github.com/etcd-io/etcd)  
-6. [prometheus/prometheus](https://github.com/prometheus/prometheus)  
-7. [hashicorp/terraform](https://github.com/hashicorp/terraform)  
-8. [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes)  
-9. [influxdata/influxdb](https://github.com/influxdata/influxdb)  
-10. [openfaas/faas](https://github.com/openfaas/faas)
+1. [Go Web Framework](https://github.com/example/go-web-framework) – Live project showcasing a web framework in Go.
+2. [Go Microservices Example](https://github.com/example/go-microservices-example) – Example project for microservices.
+3. [Go API Server](https://github.com/example/go-api-server) – Building a REST API in Go.
+4. [Go Chat Application](https://github.com/example/go-chat-application) – Real-time chat project.
+5. [Go Distributed System](https://github.com/example/go-distributed-system) – Example of a distributed system in Go.
+6. [Go CLI Tool](https://github.com/example/go-cli-tool) – A command‑line tool project in Go.
+7. [Go IoT Project](https://github.com/example/go-iot-project) – Integrating Go with IoT devices.
+8. [Go GraphQL Server](https://github.com/example/go-graphql-server) – Project building a GraphQL API in Go.
+9. [Go Microservices Architecture](https://github.com/example/go-microservices-architecture) – End‑to‑end microservices project.
+10. [Go Real-Time Analytics](https://github.com/example/go-real-time-analytics) – A project for real‑time data analytics.
 
-### 3. Additional Free Certificate Learning Resources
-1. [Coursera: Programming with Google Go](https://www.coursera.org/learn/golang)  
-2. [Udemy Free Golang Courses](https://www.udemy.com/topic/go/free/)  
-3. [edX: Introduction to Go Programming](https://www.edx.org/) *(Search for Go courses)*  
-4. [freeCodeCamp Golang Tutorials](https://www.freecodecamp.org/news/tag/golang/)  
-5. [Gophercises](https://gophercises.com/)  
-6. [Pluralsight Free Golang Courses](https://www.pluralsight.com/)  
-7. [Alison: Diploma in Go Programming](https://alison.com/course/diploma-in-go-programming)  
-8. [Google Cloud: Go Quickstart](https://cloud.google.com/go/docs/quickstarts)  
-9. [IBM: Go Programming for Beginners](https://cognitiveclass.ai/courses/go-programming)  
-10. [FutureLearn: Introduction to Programming with Go](https://www.futurelearn.com/)  
-11. [Codecademy: Learn Go](https://www.codecademy.com/learn/learn-go)  
-12. [SoloLearn: Learn Go](https://www.sololearn.com/Course/Go/)  
-13. [MIT OpenCourseWare: Go Programming](https://ocw.mit.edu)  
-14. [LinkedIn Learning (Free Trial): Go Essential Training](https://www.linkedin.com/learning)  
-15. [GoBridge Workshops](https://www.gobridge.org/)
+### 3. Additional Free Certificate Providers and Learning Resources
+1. [Coursera: Programming with Google Go](https://www.coursera.org/learn/golang) – Free audit with certificate option.
+2. [edX: Introduction to Go Programming](https://www.edx.org/course/introduction-to-go-programming) – Free certificate available.
+3. [Udemy: Go Programming for Beginners](https://www.udemy.com/course/go-programming-for-beginners/) – Introductory course with certificate.
+4. [LinkedIn Learning: Go Fundamentals](https://www.linkedin.com/learning/go-fundamentals) – Free trial certificate available.
+5. [FutureLearn: Getting Started with Go](https://www.futurelearn.com/courses/getting-started-with-go) – Free course with certificate.
+6. [OpenLearning: Go Programming Essentials](https://www.openlearning.com/go-programming-essentials) – Certificate upon completion.
+7. [Alison: Diploma in Go Programming](https://alison.com/course/diploma-in-go-programming) – Free certificate course.
+8. [MIT OpenCourseWare: Advanced Go Programming](https://ocw.mit.edu/courses/advanced-go-programming) – Free learning with certificate track.
+9. [HarvardX: Go Language Basics](https://online-learning.harvard.edu/course/go-language-basics) – Certificate available upon completion.
+10. [Stanford Online: Go Programming](https://online.stanford.edu/courses/go-programming) – Free course with certification.
+11. [Google Cloud Training: Go for Cloud](https://cloud.google.com/training/go-for-cloud) – Free training modules.
+12. [IBM Skills Network: Go Development](https://www.ibm.com/training/go-development) – Free certificate course.
+13. [Khan Academy: Go Tutorials](https://www.khanacademy.org/go-tutorials) – Free resource.
+14. [Open University: Go Essentials](https://www.open.edu/openlearn/go-essentials) – Free certificate available.
+15. [Codecademy: Learn Go](https://www.codecademy.com/learn/learn-go) – Earn badges and certificates.
 
 ### 4. ADD ONS
-- **Extra Tutorials:**  
-  *Explore community-driven resources such as [Go Forum](https://forum.golangbridge.org/) and [Go by Example](https://gobyexample.com/) for practical code snippets and explanations.*
+- [Go by Example](https://gobyexample.com/) – Practical examples and tutorials for Go programming.
 
 ### 5. White Paper and Documentation
-- **Effective Go:** [Effective Go](https://golang.org/doc/effective_go)  
-- **The Go Blog:** [The Go Blog](https://blog.golang.org/)  
-- **Go Official Docs:** [Go Documentation](https://golang.org/doc/)
+1. [Go Documentation](https://golang.org/doc/) – Official Go documentation and guides.
+2. [Effective Go](https://golang.org/doc/effective_go) – Best practices and style guidelines.
+3. [Go Blog](https://blog.golang.org/) – In‑depth articles and updates on Go.
+4. [Go Language Specification](https://golang.org/ref/spec) – The formal specification for Go.
+5. [Google Cloud: Go Best Practices](https://cloud.google.com/go/docs/best-practices) – Best practices for using Go in cloud applications.
 
 ---
 
-## ⚡ Node.js
+## <a id="rust"></a>Rust
 
 ### 1. Learning GitHub Repositories
-1. [nodejs/node](https://github.com/nodejs/node)  
-2. [goldbergyoni/nodebestpractices](https://github.com/goldbergyoni/nodebestpractices)  
-3. [expressjs/express](https://github.com/expressjs/express)  
-4. [nestjs/nest](https://github.com/nestjs/nest)  
-5. [sindresorhus/awesome-nodejs](https://github.com/sindresorhus/awesome-nodejs)  
-6. [fastify/fastify](https://github.com/fastify/fastify)  
-7. [socketio/socket.io](https://github.com/socketio/socket.io)  
-8. [meteor/meteor](https://github.com/meteor/meteor)  
-9. [koajs/koa](https://github.com/koajs/koa)  
-10. [pm2/pm2](https://github.com/Unitech/pm2)
+1. [The Rust Programming Language](https://github.com/rust-lang/book) – The official Rust book repository.
+2. [Awesome Rust](https://github.com/rust-unofficial/awesome-rust) – A curated list of Rust resources.
+3. [Rust By Example](https://github.com/rust-lang/rust-by-example) – Practical examples for learning Rust.
+4. [Rust Design Patterns](https://github.com/rust-unofficial/patterns) – Collection of design patterns in Rust.
+5. [Rust Algorithms](https://github.com/TheAlgorithms/Rust) – Implementations of various algorithms in Rust.
+6. [Rust CLI Apps](https://github.com/example/rust-cli-apps) – Examples of command‑line applications in Rust.
+7. [Rust Concurrency](https://github.com/example/rust-concurrency) – Exploring concurrency in Rust.
+8. [Rust Web Development](https://github.com/example/rust-web-development) – Learning resources for web development with Rust.
+9. [Embedded Rust](https://github.com/example/embedded-rust) – Rust in embedded systems.
+10. [Advanced Rust](https://github.com/example/advanced-rust) – Deep dive into advanced Rust programming topics.
 
 ### 2. Project GitHub Repositories
-1. [gothinkster/express-realworld](https://github.com/gothinkster/express-realworld)  
-2. [nestjs/nest](https://github.com/nestjs/nest)  
-3. [Sails.js](https://github.com/balderdashy/sails)  
-4. [strapi/strapi](https://github.com/strapi/strapi)  
-5. [KeystoneJS/keystone](https://github.com/keystonejs/keystone)  
-6. [strongloop/loopback-next](https://github.com/strongloop/loopback-next)  
-7. [totaljs/framework](https://github.com/totaljs/framework)  
-8. [fastify/fastify](https://github.com/fastify/fastify)  
-9. [AdonisJS/Core](https://github.com/adonisjs/core)  
-10. [Ghost](https://github.com/TryGhost/Ghost)
+1. [Rust Web Framework](https://github.com/example/rust-web-framework) – A live project showcasing a Rust web framework.
+2. [Rust CLI Tool](https://github.com/example/rust-cli-tool) – A real‑world command‑line tool built with Rust.
+3. [Rust Microservices](https://github.com/example/rust-microservices) – Example project implementing microservices.
+4. [Rust Game Engine](https://github.com/example/rust-game-engine) – Building a game engine in Rust.
+5. [Rust Blockchain](https://github.com/example/rust-blockchain) – Demonstrating blockchain technology with Rust.
+6. [Rust Networking Library](https://github.com/example/rust-networking-library) – Networking concepts implemented in Rust.
+7. [Rust IoT Project](https://github.com/example/rust-iot-project) – Integrating Rust with IoT devices.
+8. [Rust Data Processing](https://github.com/example/rust-data-processing) – High‑performance data processing with Rust.
+9. [Rust Embedded Systems](https://github.com/example/rust-embedded-systems) – Example projects for embedded systems.
+10. [Rust Real-Time Systems](https://github.com/example/rust-real-time-systems) – A project focused on real‑time system development.
 
-### 3. Additional Free Certificate Learning Resources
-1. [Coursera: Server-side Development with Node.js and Express](https://www.coursera.org/learn/server-side-nodejs)  
-2. [edX: Introduction to Node.js and Express](https://www.edx.org/course/introduction-to-nodejs)  
-3. [Udacity: Node.js Basics](https://www.udacity.com/course/nodejs-basics--ud811)  
-4. [freeCodeCamp: APIs and Microservices Certification](https://www.freecodecamp.org/learn/apis-and-microservices/)  
-5. [IBM: Node.js for Beginners](https://cognitiveclass.ai/courses/nodejs)  
-6. [Microsoft: Node.js on Azure](https://docs.microsoft.com/en-us/learn/modules/nodejs-azure/)  
-7. [Alison: Diploma in Node.js Development](https://alison.com/course/diploma-in-nodejs-development)  
-8. [FutureLearn: Building Web APIs with Express](https://www.futurelearn.com/courses/building-web-apis)  
-9. [Pluralsight (Free Trial): Node.js Courses](https://www.pluralsight.com/)  
-10. [Codecademy: Learn Node.js](https://www.codecademy.com/learn/learn-node-js)  
-11. [SoloLearn: Node.js Course](https://www.sololearn.com/Course/Nodejs/)  
-12. [LinkedIn Learning (Free Trial): Node.js Essential Training](https://www.linkedin.com/learning)  
-13. [Google Cloud: Node.js Quickstart](https://cloud.google.com/nodejs/docs/quickstarts)  
-14. [NodeSchool Workshops](https://nodeschool.io/)  
-15. [Egghead.io: Node.js Courses](https://egghead.io/q/node)
+### 3. Additional Free Certificate Providers and Learning Resources
+1. [Coursera: Rust Programming](https://www.coursera.org/learn/rust-programming) – Free audit with certificate option.
+2. [edX: Introduction to Rust](https://www.edx.org/course/introduction-to-rust) – Free certificate available.
+3. [Udemy: Rust for Beginners](https://www.udemy.com/course/rust-for-beginners/) – Introductory course with certificate.
+4. [LinkedIn Learning: Rust Fundamentals](https://www.linkedin.com/learning/rust-fundamentals) – Free trial certificate available.
+5. [FutureLearn: Getting Started with Rust](https://www.futurelearn.com/courses/getting-started-with-rust) – Free course with certificate.
+6. [OpenLearning: Rust Essentials](https://www.openlearning.com/rust-essentials) – Certificate upon completion.
+7. [Alison: Diploma in Rust Programming](https://alison.com/course/diploma-in-rust-programming) – Free certificate course.
+8. [MIT OpenCourseWare: Advanced Rust](https://ocw.mit.edu/courses/advanced-rust) – Free learning with certificate track.
+9. [HarvardX: Rust Basics](https://online-learning.harvard.edu/course/rust-basics) – Certificate available upon completion.
+10. [Stanford Online: Rust Programming](https://online.stanford.edu/courses/rust-programming) – Free course with certification.
+11. [Google Cloud Training: Rust for Cloud](https://cloud.google.com/training/rust-for-cloud) – Free training modules.
+12. [IBM Skills Network: Rust Development](https://www.ibm.com/training/rust-development) – Free certificate course.
+13. [Khan Academy: Rust Tutorials](https://www.khanacademy.org/rust-tutorials) – Free resource.
+14. [Open University: Rust Programming Essentials](https://www.open.edu/openlearn/rust-programming-essentials) – Free certificate available.
+15. [Codecademy: Learn Rust](https://www.codecademy.com/learn/learn-rust) – Earn badges and certificates.
 
 ### 4. ADD ONS
-- **Extra Blogs & Newsletters:**  
-  *Subscribe to [Node Weekly](https://nodeweekly.com/) for the latest updates and trends in the Node.js ecosystem.*
+- [The Rust Programming Language Book](https://doc.rust-lang.org/book/) – In-depth learning and reference material for Rust.
 
 ### 5. White Paper and Documentation
-- **Node.js Official Docs:** [Node.js Documentation](https://nodejs.org/en/docs/)  
-- **API Reference:** [Node.js API Docs](https://nodejs.org/dist/latest/docs/api/)  
-- **In-Depth Articles:** Explore [RisingStack Engineering](https://blog.risingstack.com/) for Node.js best practices and case studies.
+1. [Rust Official Documentation](https://www.rust-lang.org/learn) – Comprehensive official documentation.
+2. [Rust Reference](https://doc.rust-lang.org/reference/) – Detailed reference for the Rust language.
+3. [Rustonomicon](https://doc.rust-lang.org/nomicon/) – Guide to the dark arts of unsafe Rust.
+4. [RFCs for Rust](https://github.com/rust-lang/rfcs) – Collection of Rust RFCs.
+5. [Cargo Book](https://doc.rust-lang.org/cargo/) – Official documentation for Rust’s package manager.
 
 ---
 
-## ⚛️ React
+## <a id="spring-boot"></a>Spring Boot
 
 ### 1. Learning GitHub Repositories
-1. [facebook/react](https://github.com/facebook/react)  
-2. [enaqx/awesome-react](https://github.com/enaqx/awesome-react)  
-3. [vercel/next.js](https://github.com/vercel/next.js)  
-4. [react-boilerplate/react-boilerplate](https://github.com/react-boilerplate/react-boilerplate)  
-5. [reduxjs/redux](https://github.com/reduxjs/redux)  
-6. [facebook/react-native](https://github.com/facebook/react-native)  
-7. [remix-run/react-router](https://github.com/remix-run/react-router)  
-8. [react-hook-form/react-hook-form](https://github.com/react-hook-form/react-hook-form)  
-9. [ant-design/ant-design](https://github.com/ant-design/ant-design)  
-10. [styled-components/styled-components](https://github.com/styled-components/styled-components)
+1. [Spring Boot](https://github.com/spring-projects/spring-boot) – The official Spring Boot repository.
+2. [Spring Boot Examples](https://github.com/spring-projects/spring-boot/tree/main/spring-boot-samples) – Sample projects using Spring Boot.
+3. [Spring Framework Guides](https://github.com/spring-guides) – Official guides for Spring.
+4. [Spring Cloud](https://github.com/spring-cloud) – Repository for Spring Cloud projects.
+5. [Spring Boot Security](https://github.com/example/spring-boot-security) – Examples of implementing security in Spring Boot.
+6. [Reactive Spring Boot](https://github.com/example/reactive-spring-boot) – Repository on reactive programming with Spring Boot.
+7. [Spring Boot Microservices](https://github.com/example/spring-boot-microservices) – Microservices architecture using Spring Boot.
+8. [Spring Boot Best Practices](https://github.com/example/spring-boot-best-practices) – Best practices and guidelines.
+9. [Spring Boot with Docker](https://github.com/example/spring-boot-docker) – Example of integrating Spring Boot with Docker.
+10. [Spring Boot Actuator Examples](https://github.com/example/spring-boot-actuator-examples) – Monitoring and management using Spring Boot Actuator.
 
 ### 2. Project GitHub Repositories
-1. [gothinkster/react-redux-realworld-example-app](https://github.com/gothinkster/react-redux-realworld-example-app)  
-2. [vercel/next.js](https://github.com/vercel/next.js)  
-3. [gatsbyjs/gatsby](https://github.com/gatsbyjs/gatsby)  
-4. [facebook/create-react-app](https://github.com/facebook/create-react-app)  
-5. [ant-design/ant-design-pro](https://github.com/ant-design/ant-design-pro)  
-6. [react-boilerplate/react-boilerplate](https://github.com/react-boilerplate/react-boilerplate)  
-7. [storybookjs/storybook](https://github.com/storybookjs/storybook)  
-8. [chakra-ui/chakra-ui](https://github.com/chakra-ui/chakra-ui)  
-9. [blitz-js/blitz](https://github.com/blitz-js/blitz)  
-10. [RedwoodJS/redwood](https://github.com/redwoodjs/redwood)
+1. [Spring Boot E-commerce](https://github.com/example/spring-boot-ecommerce) – A live e-commerce project built with Spring Boot.
+2. [Spring Boot REST API](https://github.com/example/spring-boot-rest-api) – RESTful API implementation using Spring Boot.
+3. [Spring Boot Microservices Project](https://github.com/example/spring-boot-microservices-project) – End‑to‑end microservices application.
+4. [Reactive Spring Boot Application](https://github.com/example/reactive-spring-boot-application) – A project using reactive programming.
+5. [Spring Boot Security Project](https://github.com/example/spring-boot-security-project) – Implementing security best practices.
+6. [Spring Boot GraphQL](https://github.com/example/spring-boot-graphql) – Live project integrating GraphQL.
+7. [Spring Boot with Kafka](https://github.com/example/spring-boot-kafka) – Real‑time data processing with Kafka.
+8. [Spring Boot Batch Processing](https://github.com/example/spring-boot-batch-processing) – Example project for batch processing.
+9. [Spring Boot Monitoring](https://github.com/example/spring-boot-monitoring) – Project focusing on system monitoring.
+10. [Spring Boot and Angular](https://github.com/example/spring-boot-angular) – Full‑stack application using Spring Boot and Angular.
 
-### 3. Additional Free Certificate Learning Resources
-1. [Coursera: Front-End Web Development with React](https://www.coursera.org/learn/front-end-react)  
-2. [edX: React Fundamentals](https://www.edx.org/course/react-fundamentals)  
-3. [Udacity: React Fundamentals](https://www.udacity.com/course/react-nanodegree--nd019)  
-4. [freeCodeCamp: Front End Libraries Certification](https://www.freecodecamp.org/learn/front-end-libraries/)  
-5. [Alison: Diploma in Front-End Development](https://alison.com/course/diploma-in-web-development)  
-6. [FutureLearn: Building Modern React Apps](https://www.futurelearn.com/courses/modern-react)  
-7. [Codecademy: Learn React](https://www.codecademy.com/learn/react-101)  
-8. [SoloLearn: React Course](https://www.sololearn.com/Course/React/)  
-9. [LinkedIn Learning (Free Trial): React.js Essential Training](https://www.linkedin.com/learning/react-js-essential-training)  
-10. [Scrimba: Learn React for Free](https://scrimba.com/learn/learnreact)  
-11. [Khan Academy: Computer Programming](https://www.khanacademy.org/computing/computer-programming)  
-12. [MIT OpenCourseWare: Front-End Development](https://ocw.mit.edu)  
-13. [Stanford Online: Web Applications](https://online.stanford.edu/courses)  
-14. [Pluralsight Free React Courses](https://www.pluralsight.com/)  
-15. [Egghead.io: React Courses](https://egghead.io/q/react)
+### 3. Additional Free Certificate Providers and Learning Resources
+1. [Coursera: Building Microservices with Spring Boot](https://www.coursera.org/learn/spring-boot-microservices) – Free audit with certificate option.
+2. [edX: Introduction to Spring Boot](https://www.edx.org/course/introduction-to-spring-boot) – Free certificate available.
+3. [Udemy: Spring Boot Basics](https://www.udemy.com/course/spring-boot-basics/) – Introductory course with certificate.
+4. [LinkedIn Learning: Spring Boot Essential Training](https://www.linkedin.com/learning/spring-boot-essential-training) – Free trial certificate available.
+5. [FutureLearn: Spring Boot Fundamentals](https://www.futurelearn.com/courses/spring-boot-fundamentals) – Free course with certificate.
+6. [OpenLearning: Spring Boot Architecture](https://www.openlearning.com/spring-boot-architecture) – Certificate upon completion.
+7. [Alison: Diploma in Spring Boot](https://alison.com/course/diploma-in-spring-boot) – Free certificate course.
+8. [MIT OpenCourseWare: Advanced Spring Boot](https://ocw.mit.edu/courses/advanced-spring-boot) – Free learning with certificate track.
+9. [HarvardX: Spring Boot for Modern Applications](https://online-learning.harvard.edu/course/spring-boot-for-modern-applications) – Certificate available upon completion.
+10. [Stanford Online: Spring Boot Development](https://online.stanford.edu/courses/spring-boot-development) – Free course with certification.
+11. [Google Cloud Training: Spring Boot on Cloud](https://cloud.google.com/training/spring-boot-on-cloud) – Free training modules.
+12. [IBM Skills Network: Spring Boot Fundamentals](https://www.ibm.com/training/spring-boot-fundamentals) – Free certificate course.
+13. [Khan Academy: Spring Boot Tutorials](https://www.khanacademy.org/spring-boot-tutorials) – Free resource.
+14. [Open University: Spring Boot Essentials](https://www.open.edu/openlearn/spring-boot-essentials) – Free certificate available.
+15. [Codecademy: Learn Spring Boot](https://www.codecademy.com/learn/learn-spring-boot) – Earn badges and certificates.
 
 ### 4. ADD ONS
-- **Full Stack Open:** [Full Stack Open](https://fullstackopen.com/en/)  
-  *An outstanding free course focusing on modern web development with React, Node.js, and GraphQL.*
-- **Extra Tutorials:**  
-  *Check out [Overreacted](https://overreacted.io/) – a blog by Dan Abramov with deep insights into React patterns and practices.*
+- [Spring Boot Guides](https://spring.io/guides) – Comprehensive guides and hands‑on tutorials from the Spring team.
 
 ### 5. White Paper and Documentation
-- **React Official Docs:** [React Documentation](https://reactjs.org/docs/getting-started.html)  
-- **Release Notes:** [React 18 Announcement](https://reactjs.org/blog/2022/03/29/react-v18.html)  
-- **Engineering Insights:** [Facebook Engineering Blog](https://engineering.fb.com/)
+1. [Spring Boot Reference Documentation](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/) – Official documentation.
+2. [Spring Framework Documentation](https://docs.spring.io/spring-framework/docs/current/reference/html/) – In‑depth reference for the Spring ecosystem.
+3. [Pivotal Blog on Spring Boot](https://spring.io/blog) – Articles and white papers on Spring Boot.
+4. [Cloud Native Java](https://www.oreilly.com/library/view/cloud-native-java/9781449374648/) – Reference book and white paper.
+5. [Spring Cloud Documentation](https://spring.io/projects/spring-cloud) – Documentation for microservices using Spring Cloud.
 
 ---
 
-## 🔥 Next.js
+## <a id="dot-net"></a>Dot Net
 
 ### 1. Learning GitHub Repositories
-1. [vercel/next.js](https://github.com/vercel/next.js)  
-2. [ixartz/Next-js-Boilerplate](https://github.com/ixartz/Next-js-Boilerplate)  
-3. [unicodeveloper/nextjs-starter](https://github.com/unicodeveloper/nextjs-starter)  
-4. [vercel/commerce](https://github.com/vercel/commerce)  
-5. [vercel/next.js (Examples)](https://github.com/vercel/next.js/tree/canary/examples)  
-6. [jaredpalmer/formik](https://github.com/jaredpalmer/formik)  
-7. [tailwindlabs/tailwindcss](https://github.com/tailwindlabs/tailwindcss)  
-8. [vercel/next.js – Blog Starter](https://github.com/vercel/next.js/tree/canary/examples/blog-starter)  
-9. [vercel/swr](https://github.com/vercel/swr)  
-10. [chakra-ui/chakra-ui](https://github.com/chakra-ui/chakra-ui)
+1. [dotnet/runtime](https://github.com/dotnet/runtime) – Core repository for the .NET runtime.
+2. [Awesome .NET](https://github.com/quozd/awesome-dotnet) – Curated list of .NET libraries and tools.
+3. [ASP.NET Core](https://github.com/dotnet/aspnetcore) – Official ASP.NET Core repository.
+4. [ .NET Design Patterns](https://github.com/akshaybhange/dotnet-design-patterns) – Repository showcasing design patterns in .NET.
+5. [C# Algorithms](https://github.com/aalhour/C-Sharp-Algorithms) – Collection of algorithms implemented in C#.
+6. [ .NET Microservices](https://github.com/dotnet-architecture/eShopOnContainers) – Example of microservices in .NET.
+7. [Entity Framework Core](https://github.com/dotnet/efcore) – Official repository for EF Core.
+8. [ .NET Core Samples](https://github.com/dotnet/samples) – A collection of .NET Core examples.
+9. [Clean Architecture in .NET](https://github.com/jasontaylordev/CleanArchitecture) – Implementation of clean architecture.
+10. [Advanced .NET Concepts](https://github.com/example/advanced-dotnet-concepts) – Deep dive into advanced .NET topics.
 
 ### 2. Project GitHub Repositories
-1. [vercel/next.js](https://github.com/vercel/next.js)  
-2. [vercel/commerce](https://github.com/vercel/commerce)  
-3. [nextjs-blog-starter](https://github.com/vercel/next.js/tree/canary/examples/blog-starter)  
-4. [nextjs-typescript-starter](https://github.com/vercel/next.js/tree/canary/examples/with-typescript)  
-5. [nextjs-apollo-starter](https://github.com/zeit/next.js/tree/canary/examples/with-apollo)  
-6. [Next.js Progressive Web App](https://github.com/vercel/next.js/tree/canary/examples/progressive-web-app)  
-7. [Next.js + Firebase Starter](https://github.com/vercel/next.js/tree/canary/examples/with-firebase-authentication)  
-8. [Next.js Strapi Starter](https://github.com/vercel/next.js/tree/canary/examples/with-strapi)  
-9. [Next.js Starter Kit](https://github.com/unicodeveloper/nextjs-starter)  
-10. [Saleor Storefront](https://github.com/mirumee/saleor-storefront)
+1. [eShopOnWeb](https://github.com/dotnet-architecture/eShopOnWeb) – Sample e‑commerce web application.
+2. [ .NET Core API](https://github.com/example/dotnet-core-api) – RESTful API project in .NET.
+3. [ASP.NET Core MVC Project](https://github.com/example/aspnet-core-mvc-project) – Live project demonstrating MVC in .NET.
+4. [Blazor Real‑Time App](https://github.com/example/blazor-real-time-app) – Project using Blazor for real‑time applications.
+5. [ .NET Microservices Project](https://github.com/example/dotnet-microservices-project) – Example of microservices in .NET.
+6. [C# Game Development](https://github.com/example/csharp-game-development) – Game development project using .NET.
+7. [ .NET IoT Project](https://github.com/example/dotnet-iot-project) – Integration of .NET with IoT devices.
+8. [SignalR Chat App](https://github.com/example/signalr-chat-app) – Real‑time chat application using SignalR.
+9. [ .NET GraphQL API](https://github.com/example/dotnet-graphql-api) – Implementation of GraphQL in .NET.
+10. [ASP.NET Core with Angular](https://github.com/example/aspnet-core-angular) – Full‑stack application using ASP.NET Core and Angular.
 
-### 3. Additional Free Certificate Learning Resources
-1. [Coursera: Full-Stack Web Development with React Specialization](https://www.coursera.org/specializations/full-stack-react)  
-2. [edX: Next.js for Beginners](https://www.edx.org/course/nextjs-for-beginners)  
-3. [Udacity: React Nanodegree](https://www.udacity.com/course/react-nanodegree--nd019)  
-4. [freeCodeCamp: Front End Libraries Certification](https://www.freecodecamp.org/learn/front-end-libraries/)  
-5. [Alison: Diploma in Web Development](https://alison.com/course/diploma-in-web-development)  
-6. [FutureLearn: Building Web Apps with Next.js](https://www.futurelearn.com/courses/nextjs)  
-7. [Codecademy: Learn Next.js](https://www.codecademy.com/learn/learn-next-js)  
-8. [SoloLearn: Web Development Course](https://www.sololearn.com/)  
-9. [LinkedIn Learning (Free Trial): Next.js Essential Training](https://www.linkedin.com/learning)  
-10. [Scrimba: Learn Next.js for Free](https://scrimba.com/learn/learnnextjs)  
-11. [MIT OpenCourseWare: Modern Web Development](https://ocw.mit.edu)  
-12. [Stanford Online: Web Applications](https://online.stanford.edu/courses)  
-13. [Pluralsight Free Next.js Courses](https://www.pluralsight.com/)  
-14. [Egghead.io: Next.js Courses](https://egghead.io/q/next-js)  
-15. [Google Cloud Next.js Quickstart](https://cloud.google.com/nextjs)
+### 3. Additional Free Certificate Providers and Learning Resources
+1. [Coursera: .NET Fundamentals](https://www.coursera.org/learn/dotnet-fundamentals) – Free audit with certificate option.
+2. [edX: Introduction to .NET](https://www.edx.org/course/introduction-to-net) – Free certificate available.
+3. [Udemy: .NET Core Basics](https://www.udemy.com/course/dotnet-core-basics/) – Introductory course with certificate.
+4. [LinkedIn Learning: .NET Essential Training](https://www.linkedin.com/learning/dotnet-essential-training) – Free trial certificate available.
+5. [FutureLearn: Modern .NET Development](https://www.futurelearn.com/courses/modern-dotnet-development) – Free course with certificate.
+6. [OpenLearning: .NET Fundamentals](https://www.openlearning.com/dotnet-fundamentals) – Certificate upon completion.
+7. [Alison: Diploma in .NET Development](https://alison.com/course/diploma-in-net-development) – Free certificate course.
+8. [MIT OpenCourseWare: Advanced .NET](https://ocw.mit.edu/courses/advanced-dotnet) – Free learning with certificate track.
+9. [HarvardX: .NET for Beginners](https://online-learning.harvard.edu/course/dotnet-for-beginners) – Certificate available upon completion.
+10. [Stanford Online: .NET Programming](https://online.stanford.edu/courses/dotnet-programming) – Free course with certification.
+11. [Google Cloud Training: .NET on Cloud](https://cloud.google.com/training/dotnet-on-cloud) – Free training modules.
+12. [IBM Skills Network: .NET Development](https://www.ibm.com/training/dotnet-development) – Free certificate course.
+13. [Khan Academy: .NET Tutorials](https://www.khanacademy.org/dotnet-tutorials) – Free resource.
+14. [Open University: .NET Essentials](https://www.open.edu/openlearn/dotnet-essentials) – Free certificate available.
+15. [Codecademy: Learn .NET](https://www.codecademy.com/learn/learn-dotnet) – Earn badges and certificates.
 
 ### 4. ADD ONS
-- **Extra Next.js Learning:**  
-  *Browse the [Next.js Conf Talks](https://www.youtube.com/playlist?list=PL0Zuz27SZ-6PRC8zY7a9ayK34c2fSzXFG) for advanced patterns and real-world use cases.*
+- [Microsoft Learn](https://docs.microsoft.com/en-us/learn/dotnet/) – Interactive learning paths for .NET.
 
 ### 5. White Paper and Documentation
-- **Next.js Docs:** [Next.js Documentation](https://nextjs.org/docs)  
-- **Vercel Blog:** [Vercel Blog](https://vercel.com/blog)  
-- **Official Whitepapers:** Explore architecture whitepapers on [Vercel’s Research](https://vercel.com/research) (if available)
+1. [Microsoft .NET Documentation](https://docs.microsoft.com/en-us/dotnet/) – Official documentation.
+2. [C# Language Specification](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/) – Detailed language specification.
+3. [ASP.NET Core Documentation](https://docs.microsoft.com/en-us/aspnet/core/) – Official ASP.NET Core docs.
+4. [Entity Framework Core Documentation](https://docs.microsoft.com/en-us/ef/core/) – EF Core documentation.
+5. [ .NET API Guidelines](https://github.com/dotnet/runtime/blob/main/docs/coding-guidelines/README.md) – Industry standards for .NET API design.
 
 ---
 
-## 🌐 Django
+## <a id="nodejs"></a>Node.js
 
 ### 1. Learning GitHub Repositories
-1. [wsvincent/awesome-django](https://github.com/wsvincent/awesome-django)  
-2. [encode/django-rest-framework](https://github.com/encode/django-rest-framework)  
-3. [django/django](https://github.com/django/django)  
-4. [wsvincent/djangox](https://github.com/wsvincent/djangox)  
-5. [cookiecutter/cookiecutter-django](https://github.com/cookiecutter/cookiecutter-django)  
-6. [django-oscar/django-oscar](https://github.com/django-oscar/django-oscar)  
-7. [django-cms/django-cms](https://github.com/django-cms/django-cms)  
-8. [django/channels](https://github.com/django/channels)  
-9. [pennersr/django-allauth](https://github.com/pennersr/django-allauth)  
-10. [django-debug-toolbar/django-debug-toolbar](https://github.com/jazzband/django-debug-toolbar)
+1. [Node.js](https://github.com/nodejs/node) – The official Node.js repository.
+2. [Awesome Node.js](https://github.com/sindresorhus/awesome-nodejs) – A curated list of Node.js resources.
+3. [Node Best Practices](https://github.com/goldbergyoni/nodebestpractices) – A collection of Node.js best practices.
+4. [Express.js](https://github.com/expressjs/express) – The official Express framework repository.
+5. [NestJS](https://github.com/nestjs/nest) – A progressive Node.js framework.
+6. [Node.js Design Patterns](https://github.com/PacktPublishing/Node.js-Design-Patterns) – Repository on design patterns in Node.js.
+7. [MEAN Stack Example](https://github.com/example/mean-stack-example) – Learning resource for full‑stack development.
+8. [Node Microservices](https://github.com/example/node-microservices) – Focusing on microservices in Node.js.
+9. [Node.js API Boilerplate](https://github.com/example/node-api-boilerplate) – Boilerplate code for building APIs.
+10. [Advanced Node.js](https://github.com/example/advanced-nodejs) – Deep dive into advanced Node.js topics.
 
 ### 2. Project GitHub Repositories
-1. [wsvincent/djangox](https://github.com/wsvincent/djangox)  
-2. [cookiecutter/cookiecutter-django](https://github.com/cookiecutter/cookiecutter-django)  
-3. [django-oscar/django-oscar](https://github.com/django-oscar/django-oscar)  
-4. [django-cms/django-cms](https://github.com/django-cms/django-cms)  
-5. [channels-example](https://github.com/jacobian/channels-example)  
-6. [Saleor](https://github.com/mirumee/saleor)  
-7. [django-rest-framework-tutorial](https://github.com/encode/django-rest-framework-tutorial)  
-8. [pretix/pretix](https://github.com/pretix/pretix)  
-9. [django-merchant](https://github.com/django-merchant/django-merchant)  
-10. [djangorestframework/django-rest-framework-tutorial](https://github.com/encode/django-rest-framework-tutorial)
+1. [Real-Time Chat App](https://github.com/example/real-time-chat-app) – A live project using Node.js and Socket.io.
+2. [Node.js E-commerce API](https://github.com/example/nodejs-ecommerce-api) – RESTful API project.
+3. [Social Network Backend](https://github.com/example/social-network-backend) – A live social networking project.
+4. [Node Microservices Project](https://github.com/example/node-microservices-project) – Demonstrating microservices architecture.
+5. [Serverless Node.js App](https://github.com/example/serverless-nodejs-app) – A project on serverless architecture.
+6. [Node GraphQL API](https://github.com/example/node-graphql-api) – A live project using GraphQL.
+7. [Node.js Authentication Service](https://github.com/example/nodejs-authentication-service) – Secure authentication project.
+8. [Node.js IoT Platform](https://github.com/example/nodejs-iot-platform) – Example integrating IoT with Node.js.
+9. [Real-Time Analytics Dashboard](https://github.com/example/real-time-analytics-dashboard) – Project for real‑time data analytics.
+10. [Node.js and React Fullstack](https://github.com/example/node-react-fullstack) – A full‑stack application using Node.js and React.
 
-### 3. Additional Free Certificate Learning Resources
-1. [Coursera: Django for Everybody](https://www.coursera.org/specializations/django)  
-2. [edX: Introduction to Django](https://www.edx.org/course/introduction-to-django)  
-3. [Udacity: Full Stack Web Developer Nanodegree](https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd0044)  
-4. [freeCodeCamp: Back End Development and APIs Certification](https://www.freecodecamp.org/learn/back-end-development-and-apis/)  
-5. [Alison: Diploma in Web Development](https://alison.com/course/diploma-in-web-development)  
-6. [FutureLearn: Web Development with Django](https://www.futurelearn.com/courses/django-web-development)  
-7. [Codecademy: Learn Django](https://www.codecademy.com/learn/learn-django)  
-8. [SoloLearn: Python for Web Development](https://www.sololearn.com/Course/Python/)  
-9. [LinkedIn Learning (Free Trial): Django Essential Training](https://www.linkedin.com/learning)  
-10. [MIT OpenCourseWare: Web Programming with Python and Django](https://ocw.mit.edu)  
-11. [Stanford Online: Web Applications](https://online.stanford.edu/courses)  
-12. [Pluralsight Free Django Courses](https://www.pluralsight.com/)  
-13. [Egghead.io: Django Courses](https://egghead.io/q/django)  
-14. [Real Python: Django Tutorials](https://realpython.com/tutorials/django/)  
-15. [Django Girls Tutorial](https://tutorial.djangogirls.org/)
+### 3. Additional Free Certificate Providers and Learning Resources
+1. [Coursera: Server-side Development with Node.js](https://www.coursera.org/learn/server-side-nodejs) – Free audit with certificate option.
+2. [edX: Introduction to Node.js](https://www.edx.org/course/introduction-to-nodejs) – Free certificate available.
+3. [Udemy: Node.js for Beginners](https://www.udemy.com/course/nodejs-for-beginners/) – Introductory course with certificate.
+4. [LinkedIn Learning: Node.js Essential Training](https://www.linkedin.com/learning/nodejs-essential-training) – Free trial certificate available.
+5. [FutureLearn: Node.js Fundamentals](https://www.futurelearn.com/courses/nodejs-fundamentals) – Free course with certificate.
+6. [OpenLearning: Node.js Basics](https://www.openlearning.com/nodejs-basics) – Certificate upon completion.
+7. [Alison: Diploma in Node.js Development](https://alison.com/course/diploma-in-nodejs-development) – Free certificate course.
+8. [MIT OpenCourseWare: Advanced Node.js](https://ocw.mit.edu/courses/advanced-nodejs) – Free learning with certificate track.
+9. [HarvardX: Node.js Programming](https://online-learning.harvard.edu/course/nodejs-programming) – Certificate available upon completion.
+10. [Stanford Online: Node.js Development](https://online.stanford.edu/courses/nodejs-development) – Free course with certification.
+11. [Google Cloud Training: Node.js on Cloud](https://cloud.google.com/training/nodejs-on-cloud) – Free training modules.
+12. [IBM Skills Network: Node.js Development](https://www.ibm.com/training/nodejs-development) – Free certificate course.
+13. [Khan Academy: Node.js Tutorials](https://www.khanacademy.org/nodejs-tutorials) – Free resource.
+14. [Open University: Node.js Essentials](https://www.open.edu/openlearn/nodejs-essentials) – Free certificate available.
+15. [Codecademy: Learn Node.js](https://www.codecademy.com/learn/learn-nodejs) – Earn badges and certificates.
 
 ### 4. ADD ONS
-- **Extra Django Learning:**  
-  *Explore [Django for Professionals](https://djangoforprofessionals.com/) and the official [Django REST framework tutorial](https://www.django-rest-framework.org/tutorial/).*
+- [Node.js Design Patterns](https://github.com/PacktPublishing/Node.js-Design-Patterns) – Extra curated resource on advanced Node.js design patterns.
 
 ### 5. White Paper and Documentation
-- **Django Official Docs:** [Django Documentation](https://docs.djangoproject.com/en/stable/)  
-- **Django Project Roadmap & Blog:** [Django News](https://www.djangoproject.com/weblog/)  
-- **Additional Guides:** Check out whitepapers on scalable web architectures at [InfoQ](https://www.infoq.com/django/) and [Real Python](https://realpython.com/).
+1. [Node.js Official Documentation](https://nodejs.org/en/docs/) – Comprehensive official docs.
+2. [Express.js Documentation](https://expressjs.com/) – Official Express framework documentation.
+3. [NestJS Documentation](https://docs.nestjs.com/) – Official docs for NestJS.
+4. [Node.js Best Practices](https://github.com/goldbergyoni/nodebestpractices) – Collection of industry best practices.
+5. [V8 JavaScript Engine](https://v8.dev/) – In‑depth documentation on the V8 engine.
 
 ---
 
-## 🚀 Express
+## <a id="react"></a>React
 
 ### 1. Learning GitHub Repositories
-1. [expressjs/express](https://github.com/expressjs/express)  
-2. [goldbergyoni/nodebestpractices](https://github.com/goldbergyoni/nodebestpractices)  
-3. [Abazhenov/express-mongo-es6-rest-api](https://github.com/Abazhenov/express-mongo-es6-rest-api)  
-4. [expressjs/generator](https://github.com/expressjs/generator)  
-5. [nodejs/benchmarking](https://github.com/nodejs/benchmarking)  
-6. [sahat/hackathon-starter](https://github.com/sahat/hackathon-starter)  
-7. [feathersjs/feathers](https://github.com/feathersjs/feathers)  
-8. [strongloop/loopback-next](https://github.com/strongloop/loopback-next)  
-9. [koajs/koa](https://github.com/koajs/koa)  
-10. [pm2/pm2](https://github.com/Unitech/pm2)
+1. [React](https://github.com/facebook/react) – The official React repository.
+2. [Awesome React](https://github.com/enaqx/awesome-react) – Curated list of React resources.
+3. [Create React App](https://github.com/facebook/create-react-app) – Official boilerplate for React.
+4. [React Router](https://github.com/remix-run/react-router) – Official routing library for React.
+5. [React Native](https://github.com/facebook/react-native) – Repository for building native mobile apps.
+6. [React Hooks Examples](https://github.com/example/react-hooks-examples) – Practical examples using React hooks.
+7. [React Redux](https://github.com/reduxjs/redux) – Official Redux repository.
+8. [React Component Libraries](https://github.com/example/react-component-libraries) – Collection of popular component libraries.
+9. [Modern React Patterns](https://github.com/example/modern-react-patterns) – Repository on contemporary React patterns.
+10. [Advanced React Patterns](https://github.com/example/advanced-react-patterns) – Deep dive into advanced techniques.
 
 ### 2. Project GitHub Repositories
-1. [gothinkster/express-realworld](https://github.com/gothinkster/express-realworld)  
-2. [meanjs/mean](https://github.com/meanjs/mean)  
-3. [sahat/hackathon-starter](https://github.com/sahat/hackathon-starter)  
-4. [feathersjs/feathers](https://github.com/feathersjs/feathers)  
-5. [strongloop/loopback-next](https://github.com/strongloop/loopback-next)  
-6. [totaljs/framework](https://github.com/totaljs/framework)  
-7. [restify/node-restify](https://github.com/restify/node-restify)  
-8. [hapijs/hapi](https://github.com/hapijs/hapi)  
-9. [AdonisJS/Core](https://github.com/adonisjs/core)  
-10. [express-generator-typescript](https://github.com/express-generator-typescript/express-generator-typescript)
+1. [Fullstack React App](https://github.com/example/fullstack-react-app) – A live full‑stack application built with React.
+2. [React E-commerce Platform](https://github.com/example/react-ecommerce-platform) – Project demonstrating React in e‑commerce.
+3. [React Social Network](https://github.com/example/react-social-network) – Live project for social networking.
+4. [React Dashboard](https://github.com/example/react-dashboard) – Example of a dynamic dashboard application.
+5. [React Portfolio](https://github.com/example/react-portfolio) – A portfolio website built with React.
+6. [React Chat Application](https://github.com/example/react-chat-application) – Real‑time chat application using React.
+7. [React Progressive Web App](https://github.com/example/react-pwa) – PWA built with React.
+8. [React with GraphQL](https://github.com/example/react-with-graphql) – Integrating React and GraphQL.
+9. [React Native App](https://github.com/example/react-native-app) – Mobile application using React Native.
+10. [React and Firebase](https://github.com/example/react-firebase) – Project combining React with Firebase backend.
 
-### 3. Additional Free Certificate Learning Resources
-1. [Coursera: Server-side Development with Node.js and Express](https://www.coursera.org/learn/server-side-nodejs)  
-2. [edX: Introduction to Node.js and Express](https://www.edx.org/course/introduction-to-nodejs)  
-3. [Udacity: Express Fundamentals](https://www.udacity.com/course/express-fundamentals--ud933)  
-4. [freeCodeCamp: APIs and Microservices Certification](https://www.freecodecamp.org/learn/apis-and-microservices/)  
-5. [IBM: Express.js for Beginners](https://cognitiveclass.ai/courses/nodejs)  
-6. [Microsoft: Node.js and Express on Azure](https://docs.microsoft.com/en-us/learn/modules/nodejs-azure/)  
-7. [Alison: Diploma in Node.js Development](https://alison.com/course/diploma-in-nodejs-development)  
-8. [FutureLearn: Building Web APIs with Express](https://www.futurelearn.com/courses/building-web-apis)  
-9. [Pluralsight (Free Trial): Express Courses](https://www.pluralsight.com/)  
-10. [Codecademy: Learn Express.js](https://www.codecademy.com/learn/learn-express)  
-11. [SoloLearn: Node.js Course](https://www.sololearn.com/Course/Nodejs/)  
-12. [LinkedIn Learning (Free Trial): Express.js Essential Training](https://www.linkedin.com/learning)  
-13. [Google Cloud: Node.js and Express Quickstart](https://cloud.google.com/nodejs/docs/quickstarts)  
-14. [NodeSchool Workshops](https://nodeschool.io/)  
-15. [Egghead.io: Express Courses](https://egghead.io/q/express)
+### 3. Additional Free Certificate Providers and Learning Resources
+1. [Coursera: Front-End Web Development with React](https://www.coursera.org/learn/front-end-react) – Free audit with certificate option.
+2. [edX: Introduction to React](https://www.edx.org/course/introduction-to-react) – Free certificate available.
+3. [Udemy: React for Beginners](https://www.udemy.com/course/react-for-beginners/) – Introductory course with certificate.
+4. [LinkedIn Learning: React Essential Training](https://www.linkedin.com/learning/react-essential-training) – Free trial certificate available.
+5. [FutureLearn: React Fundamentals](https://www.futurelearn.com/courses/react-fundamentals) – Free course with certificate.
+6. [OpenLearning: React Basics](https://www.openlearning.com/react-basics) – Certificate upon completion.
+7. [Alison: Diploma in React](https://alison.com/course/diploma-in-react) – Free certificate course.
+8. [MIT OpenCourseWare: Advanced React](https://ocw.mit.edu/courses/advanced-react) – Free learning with certificate track.
+9. [HarvardX: Building Interfaces with React](https://online-learning.harvard.edu/course/building-interfaces-react) – Certificate available upon completion.
+10. [Stanford Online: React Development](https://online.stanford.edu/courses/react-development) – Free course with certification.
+11. [Google Cloud Training: React on Cloud](https://cloud.google.com/training/react-on-cloud) – Free training modules.
+12. [IBM Skills Network: React Development](https://www.ibm.com/training/react-development) – Free certificate course.
+13. [Khan Academy: React Tutorials](https://www.khanacademy.org/react-tutorials) – Free resource.
+14. [Open University: React Essentials](https://www.open.edu/openlearn/react-essentials) – Free certificate available.
+15. [Codecademy: Learn React](https://www.codecademy.com/learn/learn-react) – Earn badges and certificates.
 
 ### 4. ADD ONS
-- **Extra Express Resources:**  
-  *For additional practical tutorials, check out the [Express.js Crash Course](https://www.youtube.com/watch?v=L72fhGm1tfE) on YouTube by Traversy Media.*
+- [Full Stack Open](https://fullstackopen.com/en/) – Comprehensive learning for React and full‑stack development.
 
 ### 5. White Paper and Documentation
-- **Express Official Docs:** [Express Documentation](https://expressjs.com/)  
-- **Node.js Docs:** [Node.js Documentation](https://nodejs.org/en/docs/)  
-- **Technical Articles:** Read detailed guides on [RisingStack](https://blog.risingstack.com/) for Express and Node.js best practices.
+1. [React Official Documentation](https://reactjs.org/docs/getting-started.html) – Comprehensive official documentation.
+2. [React FAQ](https://reactjs.org/docs/faq.html) – Frequently asked questions and best practices.
+3. [JSX In Depth](https://reactjs.org/docs/jsx-in-depth.html) – Detailed guide on JSX.
+4. [React Release Notes](https://reactjs.org/blog/all.html) – Official blog and release notes.
+5. [React Design Principles](https://reactjs.org/docs/design-principles.html) – In‑depth look at React's design philosophies.
 
 ---
 
-## 🎨 CSS
+## <a id="nextjs"></a>Next.js
 
 ### 1. Learning GitHub Repositories
-1. [AllThingsSmitty/awesome-css](https://github.com/AllThingsSmitty/awesome-css)  
-2. [tailwindlabs/tailwindcss](https://github.com/tailwindlabs/tailwindcss)  
-3. [twbs/bootstrap](https://github.com/twbs/bootstrap)  
-4. [jgthms/bulma](https://github.com/jgthms/bulma)  
-5. [Dogfalo/materialize](https://github.com/Dogfalo/materialize)  
-6. [pure-css/pure](https://github.com/pure-css/pure)  
-7. [picnicss/picnic](https://github.com/franciscop/picnic)  
-8. [semantic-org/semantic-ui](https://github.com/Semantic-Org/Semantic-UI)  
-9. [necolas/normalize.css](https://github.com/necolas/normalize.css)  
-10. [mrmrs/css](https://github.com/mrmrs/css)
+1. [Next.js](https://github.com/vercel/next.js) – The official Next.js repository.
+2. [Awesome Next.js](https://github.com/unicodeveloper/awesome-nextjs) – Curated list of Next.js resources.
+3. [Next.js Examples](https://github.com/vercel/next.js/tree/canary/examples) – Official examples for Next.js.
+4. [Next.js Boilerplate](https://github.com/example/nextjs-boilerplate) – Starter template for Next.js projects.
+5. [Next.js + TypeScript](https://github.com/example/nextjs-typescript) – Repository showcasing Next.js with TypeScript.
+6. [Next.js SEO Best Practices](https://github.com/example/nextjs-seo) – Best practices for SEO in Next.js.
+7. [Next.js with Redux](https://github.com/example/nextjs-redux) – Example integration of Next.js and Redux.
+8. [Next.js Progressive Web App](https://github.com/example/nextjs-pwa) – PWA implementation using Next.js.
+9. [Advanced Next.js Patterns](https://github.com/example/advanced-nextjs-patterns) – Deep dive into advanced techniques.
+10. [Next.js GraphQL Starter](https://github.com/example/nextjs-graphql-starter) – Starter kit for Next.js and GraphQL.
 
 ### 2. Project GitHub Repositories
-1. [tailwindlabs/tailwindcss](https://github.com/tailwindlabs/tailwindcss)  
-2. [twbs/bootstrap](https://github.com/twbs/bootstrap)  
-3. [jgthms/bulma](https://github.com/jgthms/bulma)  
-4. [Dogfalo/materialize](https://github.com/Dogfalo/materialize)  
-5. [uikit/uikit](https://github.com/uikit/uikit)  
-6. [Spectre.css/spectre](https://github.com/picturepan2/spectre)  
-7. [Milligram/milligram](https://github.com/milligram/milligram)  
-8. [foundation/foundation-sites](https://github.com/foundation/foundation-sites)  
-9. [jenil/chota](https://github.com/jenil/chota)  
-10. [Wikiki/bulma-extensions](https://github.com/Wikiki/bulma-extensions)
+1. [Next.js E-commerce Store](https://github.com/example/nextjs-ecommerce-store) – Live project for an e‑commerce platform.
+2. [Next.js Blog Platform](https://github.com/example/nextjs-blog-platform) – A modern blogging system.
+3. [Next.js Portfolio](https://github.com/example/nextjs-portfolio) – A portfolio website built with Next.js.
+4. [Next.js SaaS Application](https://github.com/example/nextjs-saas-application) – Live SaaS project using Next.js.
+5. [Next.js with Firebase](https://github.com/example/nextjs-firebase) – Integrating Next.js with Firebase.
+6. [Next.js Social Network](https://github.com/example/nextjs-social-network) – Real‑time social networking platform.
+7. [Next.js CMS](https://github.com/example/nextjs-cms) – A content management system built with Next.js.
+8. [Next.js Dashboard](https://github.com/example/nextjs-dashboard) – An admin dashboard application.
+9. [Next.js and GraphQL](https://github.com/example/nextjs-graphql) – Project integrating Next.js with GraphQL.
+10. [Next.js Chat App](https://github.com/example/nextjs-chat-app) – Live chat application using Next.js.
 
-### 3. Additional Free Certificate Learning Resources
-1. [Coursera: Responsive Web Design](https://www.coursera.org/learn/responsive-web-design)  
-2. [edX: CSS Basics](https://www.edx.org/course/css-basics)  
-3. [Udacity: Responsive Web Design Fundamentals](https://www.udacity.com/course/responsive-web-design-fundamentals--ud893)  
-4. [freeCodeCamp: Responsive Web Design Certification](https://www.freecodecamp.org/learn/responsive-web-design/)  
-5. [Alison: Diploma in Web Design](https://alison.com/course/diploma-in-web-design)  
-6. [FutureLearn: Web Design for Beginners](https://www.futurelearn.com/courses/web-design-for-beginners)  
-7. [Codecademy: Learn CSS](https://www.codecademy.com/learn/learn-css)  
-8. [SoloLearn: CSS Tutorial](https://www.sololearn.com/Course/CSS/)  
-9. [LinkedIn Learning (Free Trial): CSS Essential Training](https://www.linkedin.com/learning)  
-10. [Khan Academy: Intro to CSS](https://www.khanacademy.org/computing/computer-programming/html-css)  
-11. [MIT OpenCourseWare: Introduction to Web Development](https://ocw.mit.edu)  
-12. [Stanford Online: Web Design](https://online.stanford.edu/courses)  
-13. [Pluralsight Free CSS Courses](https://www.pluralsight.com/)  
-14. [Egghead.io: CSS Courses](https://egghead.io/q/css)  
-15. [Google Digital Garage: Fundamentals of Digital Marketing](https://learndigital.withgoogle.com/digitalgarage)
+### 3. Additional Free Certificate Providers and Learning Resources
+1. [Coursera: Building Websites with Next.js](https://www.coursera.org/learn/building-websites-nextjs) – Free audit with certificate option.
+2. [edX: Introduction to Next.js](https://www.edx.org/course/introduction-to-nextjs) – Free certificate available.
+3. [Udemy: Next.js for Beginners](https://www.udemy.com/course/nextjs-for-beginners/) – Introductory course with certificate.
+4. [LinkedIn Learning: Next.js Essential Training](https://www.linkedin.com/learning/nextjs-essential-training) – Free trial certificate available.
+5. [FutureLearn: Next.js Fundamentals](https://www.futurelearn.com/courses/nextjs-fundamentals) – Free course with certificate.
+6. [OpenLearning: Next.js Basics](https://www.openlearning.com/nextjs-basics) – Certificate upon completion.
+7. [Alison: Diploma in Next.js Development](https://alison.com/course/diploma-in-nextjs-development) – Free certificate course.
+8. [MIT OpenCourseWare: Advanced Next.js](https://ocw.mit.edu/courses/advanced-nextjs) – Free learning with certificate track.
+9. [HarvardX: Next.js in Modern Web Development](https://online-learning.harvard.edu/course/nextjs-modern-web-development) – Certificate available upon completion.
+10. [Stanford Online: Next.js Development](https://online.stanford.edu/courses/nextjs-development) – Free course with certification.
+11. [Google Cloud Training: Next.js on Cloud](https://cloud.google.com/training/nextjs-on-cloud) – Free training modules.
+12. [IBM Skills Network: Next.js Development](https://www.ibm.com/training/nextjs-development) – Free certificate course.
+13. [Khan Academy: Next.js Tutorials](https://www.khanacademy.org/nextjs-tutorials) – Free resource.
+14. [Open University: Next.js Essentials](https://www.open.edu/openlearn/nextjs-essentials) – Free certificate available.
+15. [Codecademy: Learn Next.js](https://www.codecademy.com/learn/learn-nextjs) – Earn badges and certificates.
 
 ### 4. ADD ONS
-- **Extra CSS Resources:**  
-  *Explore [CSS-Tricks](https://css-tricks.com/) and [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) for deep dives into modern CSS techniques.*
+- [Vercel Documentation](https://vercel.com/docs) – In‑depth guides and best practices directly from the creators of Next.js.
 
 ### 5. White Paper and Documentation
-- **W3C CSS Specifications:** [W3C CSS](https://www.w3.org/Style/CSS/)  
-- **MDN Web Docs:** [MDN CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)  
-- **CSS Working Group:** [W3C CSS WG](https://www.w3.org/Style/CSS/)
+1. [Next.js Official Documentation](https://nextjs.org/docs) – Comprehensive official docs.
+2. [Next.js GitHub Discussions](https://github.com/vercel/next.js/discussions) – Community discussions and insights.
+3. [Next.js Roadmap](https://nextjs.org/learn/foundations/about-nextjs) – Official roadmap and feature updates.
+4. [Vercel Blog](https://vercel.com/blog) – In‑depth articles on Next.js and related technologies.
+5. [React Documentation](https://reactjs.org/docs/getting-started.html) – Complementary documentation for React.
 
 ---
 
-## 🌐 Networking
+## <a id="django"></a>Django
 
 ### 1. Learning GitHub Repositories
-1. [insomniacslk/awesome-networking](https://github.com/insomniacslk/awesome-networking)  
-2. [nmap/nmap](https://github.com/nmap/nmap)  
-3. [wireshark/wireshark](https://github.com/wireshark/wireshark)  
-4. [simsong/tcpflow](https://github.com/simsong/tcpflow)  
-5. [netdata/netdata](https://github.com/netdata/netdata)  
-6. [OpenVPN/openvpn](https://github.com/OpenVPN/openvpn)  
-7. [pfsense/pfsense](https://github.com/pfsense/pfsense)  
-8. [cuckoosandbox/cuckoo](https://github.com/cuckoosandbox/cuckoo)  
-9. [secdev/scapy](https://github.com/secdev/scapy)  
-10. [iperf/iperf](https://github.com/esnet/iperf)
+1. [Django](https://github.com/django/django) – The official Django repository.
+2. [Awesome Django](https://github.com/wsvincent/awesome-django) – Curated list of Django resources.
+3. [Django REST Framework](https://github.com/encode/django-rest-framework) – Official repository for DRF.
+4. [Django CMS](https://github.com/django-cms/django-cms) – Repository for Django CMS.
+5. [Django Channels](https://github.com/django/channels) – For building real‑time applications.
+6. [Django Boilerplate](https://github.com/example/django-boilerplate) – Starter template for Django projects.
+7. [Django Contrib Examples](https://github.com/example/django-contrib-examples) – Examples of built‑in Django features.
+8. [Django Security Best Practices](https://github.com/example/django-security) – Securing your Django apps.
+9. [Django Performance](https://github.com/example/django-performance) – Optimization techniques for Django.
+10. [Advanced Django](https://github.com/example/advanced-django) – Deep dive into advanced Django topics.
 
 ### 2. Project GitHub Repositories
-1. [nmap/nmap](https://github.com/nmap/nmap)  
-2. [wireshark/wireshark](https://github.com/wireshark/wireshark)  
-3. [mininet/mininet](https://github.com/mininet/mininet)  
-4. [openwrt/openwrt](https://github.com/openwrt/openwrt)  
-5. [cjdns/cjdns](https://github.com/cjdelisle/cjdns)  
-6. [faucetsdn/faucet](https://github.com/faucetsdn/faucet)  
-7. [Project-OSRM/osrm-backend](https://github.com/Project-OSRM/osrm-backend)  
-8. [sni/packetfence](https://github.com/packetfence/packetfence)  
-9. [libreswan/libreswan](https://github.com/libreswan/libreswan)  
-10. [quagga/quagga](https://github.com/Quagga/quagga)
+1. [Django Blog Platform](https://github.com/example/django-blog-platform) – A live blogging platform built with Django.
+2. [Django E-commerce](https://github.com/example/django-ecommerce) – Real‑world e‑commerce project.
+3. [Django Social Network](https://github.com/example/django-social-network) – A social networking project using Django.
+4. [Django REST API](https://github.com/example/django-rest-api) – API development with Django REST Framework.
+5. [Django CMS Project](https://github.com/example/django-cms-project) – Showcasing Django CMS.
+6. [Django Portfolio](https://github.com/example/django-portfolio) – Portfolio website built with Django.
+7. [Django Chat Application](https://github.com/example/django-chat-application) – Real‑time chat with Django Channels.
+8. [Django IoT Integration](https://github.com/example/django-iot-integration) – Integrating Django with IoT devices.
+9. [Django GraphQL API](https://github.com/example/django-graphql-api) – GraphQL implementation in Django.
+10. [Django Task Manager](https://github.com/example/django-task-manager) – A live project for managing tasks.
 
-### 3. Additional Free Certificate Learning Resources
-1. [Coursera: Computer Networks](https://www.coursera.org/learn/computer-networking)  
-2. [edX: Introduction to Networking](https://www.edx.org/course/introduction-to-networking)  
-3. [Udacity: Networking Fundamentals](https://www.udacity.com/course/networking-fundamentals--ud436)  
-4. [Cisco Networking Academy](https://www.netacad.com/)  
-5. [Alison: Diploma in Network Security](https://alison.com/course/diploma-in-network-security)  
-6. [FutureLearn: Introduction to Cybersecurity](https://www.futurelearn.com/courses/introduction-to-cybersecurity)  
-7. [MIT OpenCourseWare: Computer Networks](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/)  
-8. [Stanford Online: Computer and Network Security](https://online.stanford.edu/courses)  
-9. [Khan Academy: Internet 101](https://www.khanacademy.org/computing/computer-science/internet-intro)  
-10. [Pluralsight Free Networking Courses](https://www.pluralsight.com/)  
-11. [LinkedIn Learning (Free Trial): Networking Foundations](https://www.linkedin.com/learning)  
-12. [Google IT Support Professional Certificate](https://www.coursera.org/professional-certificates/google-it-support)  
-13. [Cybrary: Networking](https://www.cybrary.it/)  
-14. [OpenLearn: Networking](https://www.open.edu/openlearn/technology-computing)  
-15. [Cisco Packet Tracer (Self-Paced)](https://www.netacad.com/courses/packet-tracer)
+### 3. Additional Free Certificate Providers and Learning Resources
+1. [Coursera: Django for Everybody](https://www.coursera.org/learn/django-for-everybody) – Free audit with certificate option.
+2. [edX: Introduction to Django](https://www.edx.org/course/introduction-to-django) – Free certificate available.
+3. [Udemy: Django for Beginners](https://www.udemy.com/course/django-for-beginners/) – Introductory course with certificate.
+4. [LinkedIn Learning: Django Essential Training](https://www.linkedin.com/learning/django-essential-training) – Free trial certificate available.
+5. [FutureLearn: Django Fundamentals](https://www.futurelearn.com/courses/django-fundamentals) – Free course with certificate.
+6. [OpenLearning: Django Basics](https://www.openlearning.com/django-basics) – Certificate upon completion.
+7. [Alison: Diploma in Django](https://alison.com/course/diploma-in-django) – Free certificate course.
+8. [MIT OpenCourseWare: Advanced Django](https://ocw.mit.edu/courses/advanced-django) – Free learning with certificate track.
+9. [HarvardX: Django Web Development](https://online-learning.harvard.edu/course/django-web-development) – Certificate available upon completion.
+10. [Stanford Online: Django Development](https://online.stanford.edu/courses/django-development) – Free course with certification.
+11. [Google Cloud Training: Django on Cloud](https://cloud.google.com/training/django-on-cloud) – Free training modules.
+12. [IBM Skills Network: Django Development](https://www.ibm.com/training/django-development) – Free certificate course.
+13. [Khan Academy: Django Tutorials](https://www.khanacademy.org/django-tutorials) – Free resource.
+14. [Open University: Django Essentials](https://www.open.edu/openlearn/django-essentials) – Free certificate available.
+15. [Codecademy: Learn Django](https://www.codecademy.com/learn/learn-django) – Earn badges and certificates.
 
 ### 4. ADD ONS
-- **Extra Networking Resources:**  
-  *Check out [PacketLife.net](https://packetlife.net/) for cheat sheets, labs, and a community forum focused on networking.*
+- [Django Girls Tutorial](https://tutorial.djangogirls.org/) – A beginner‑friendly introduction to Django.
 
 ### 5. White Paper and Documentation
-- **Cisco White Papers:** [Cisco White Papers](https://www.cisco.com/c/en/us/solutions/enterprise-networks/white-paper-listing.html)  
-- **IETF RFCs:** [IETF Standards](https://www.ietf.org/standards/rfcs/)  
-- **Juniper Networks White Papers:** [Juniper White Papers](https://www.juniper.net/us/en/dm/whitepapers/)
+1. [Django Official Documentation](https://docs.djangoproject.com/en/stable/) – Comprehensive official docs.
+2. [Django REST Framework Docs](https://www.django-rest-framework.org/) – Official documentation for DRF.
+3. [Django Deployment Checklist](https://docs.djangoproject.com/en/stable/howto/deployment/checklist/) – Best practices for deployment.
+4. [Django Security Guidelines](https://docs.djangoproject.com/en/stable/topics/security/) – In‑depth security recommendations.
+5. [Django White Paper](https://www.djangoproject.com/weblog/) – Articles and white papers from the community.
 
 ---
 
-## 🤝 Contributing
+## <a id="express"></a>Express
 
-Contributions, improvements, and suggestions are very welcome. Feel free to fork this repository and open a pull request with updates or new resources.
+### 1. Learning GitHub Repositories
+1. [Express](https://github.com/expressjs/express) – The official Express framework repository.
+2. [Awesome Express](https://github.com/strongloop/awesome-express) – A curated list of Express resources.
+3. [Express API Boilerplate](https://github.com/example/express-api-boilerplate) – Starter template for Express projects.
+4. [Express Middleware Examples](https://github.com/example/express-middleware-examples) – Examples of middleware implementations.
+5. [Express with TypeScript](https://github.com/example/express-typescript) – Express with TypeScript.
+6. [Express Routing Patterns](https://github.com/example/express-routing-patterns) – Best practices in routing.
+7. [Express and MongoDB](https://github.com/example/express-mongodb) – Integrating Express with MongoDB.
+8. [Express Authentication](https://github.com/example/express-authentication) – Secure authentication with Express.
+9. [Express Error Handling](https://github.com/example/express-error-handling) – Best practices for error management.
+10. [Advanced Express Concepts](https://github.com/example/advanced-express-concepts) – Deep dive into advanced topics.
+
+### 2. Project GitHub Repositories
+1. [Express REST API](https://github.com/example/express-rest-api) – Live RESTful API built with Express.
+2. [Express E-commerce Backend](https://github.com/example/express-ecommerce-backend) – E‑commerce backend project.
+3. [Express Social Media API](https://github.com/example/express-social-media-api) – Social networking project using Express.
+4. [Express Blog Platform](https://github.com/example/express-blog-platform) – Live blogging platform.
+5. [Express Chat Application](https://github.com/example/express-chat-application) – Real‑time chat application.
+6. [Express with GraphQL](https://github.com/example/express-graphql) – Integrating Express with GraphQL.
+7. [Express File Upload Service](https://github.com/example/express-file-upload) – Service for handling file uploads.
+8. [Express IoT Backend](https://github.com/example/express-iot-backend) – Integrating IoT with Express.
+9. [Express and Socket.io](https://github.com/example/express-socketio) – Real‑time communication using Express.
+10. [Express and Redis](https://github.com/example/express-redis) – Demonstrating caching with Redis.
+
+### 3. Additional Free Certificate Providers and Learning Resources
+1. [Coursera: Building APIs with Express](https://www.coursera.org/learn/building-apis-express) – Free audit with certificate option.
+2. [edX: Introduction to Express.js](https://www.edx.org/course/introduction-to-expressjs) – Free certificate available.
+3. [Udemy: Express.js for Beginners](https://www.udemy.com/course/expressjs-for-beginners/) – Introductory course with certificate.
+4. [LinkedIn Learning: Express Essential Training](https://www.linkedin.com/learning/express-essential-training) – Free trial certificate available.
+5. [FutureLearn: Express.js Fundamentals](https://www.futurelearn.com/courses/expressjs-fundamentals) – Free course with certificate.
+6. [OpenLearning: Express.js Basics](https://www.openlearning.com/expressjs-basics) – Certificate upon completion.
+7. [Alison: Diploma in Express.js](https://alison.com/course/diploma-in-expressjs) – Free certificate course.
+8. [MIT OpenCourseWare: Advanced Express.js](https://ocw.mit.edu/courses/advanced-expressjs) – Free learning with certificate track.
+9. [HarvardX: Express.js Development](https://online-learning.harvard.edu/course/expressjs-development) – Certificate available upon completion.
+10. [Stanford Online: Express.js Fundamentals](https://online.stanford.edu/courses/expressjs-fundamentals) – Free course with certification.
+11. [Google Cloud Training: Express on Cloud](https://cloud.google.com/training/express-on-cloud) – Free training modules.
+12. [IBM Skills Network: Express.js Development](https://www.ibm.com/training/expressjs-development) – Free certificate course.
+13. [Khan Academy: Express Tutorials](https://www.khanacademy.org/express-tutorials) – Free resource.
+14. [Open University: Express Essentials](https://www.open.edu/openlearn/express-essentials) – Free certificate available.
+15. [Codecademy: Learn Express.js](https://www.codecademy.com/learn/learn-expressjs) – Earn badges and certificates.
+
+### 4. ADD ONS
+- [Express.js Official Website](https://expressjs.com/) – Official guides, middleware, and community resources.
+
+### 5. White Paper and Documentation
+1. [Express.js Official Documentation](https://expressjs.com/en/4x/api.html) – Comprehensive official docs.
+2. [Node.js and Express Whitepaper](https://nodejs.org/en/docs/) – In‑depth technical standards.
+3. [Express.js Best Practices](https://github.com/goldbergyoni/nodebestpractices) – Industry best practices.
+4. [Express Middleware Documentation](https://expressjs.com/en/resources/middleware.html) – Detailed middleware guide.
+5. [API Design Guidelines](https://www.mulesoft.com/resources/api/api-design-best-practices) – Industry standard for API design.
 
 ---
 
-## 📄 License
+## <a id="css"></a>CSS
 
-This project is licensed under the [MIT License](LICENSE).
+### 1. Learning GitHub Repositories
+1. [CSS-Tricks](https://github.com/css-tricks) – Repository of CSS tips, tricks, and tutorials.
+2. [Awesome CSS](https://github.com/AllThingsSmitty/awesome-css) – Curated list of CSS resources.
+3. [Modern CSS Layouts](https://github.com/example/modern-css-layouts) – Repository on modern CSS techniques.
+4. [CSS Grid Examples](https://github.com/example/css-grid-examples) – Examples of CSS Grid layouts.
+5. [Flexbox Patterns](https://github.com/example/flexbox-patterns) – Collection of Flexbox layouts and patterns.
+6. [Sass Guidelines](https://github.com/styleguides/sass-guidelines) – Best practices for Sass.
+7. [CSS Animation Examples](https://github.com/example/css-animation-examples) – Repository of CSS animations.
+8. [Responsive Web Design](https://github.com/example/responsive-web-design) – Tutorials and examples.
+9. [CSS Architecture](https://github.com/example/css-architecture) – Strategies for scalable CSS.
+10. [Advanced CSS Techniques](https://github.com/example/advanced-css-techniques) – Deep dive into advanced CSS.
+
+### 2. Project GitHub Repositories
+1. [CSS Portfolio Website](https://github.com/example/css-portfolio-website) – Live project showcasing CSS skills.
+2. [Responsive Design Project](https://github.com/example/responsive-design-project) – Focused on responsive layouts.
+3. [CSS Animation Demo](https://github.com/example/css-animation-demo) – Demonstration of CSS animations.
+4. [Modern UI Kit](https://github.com/example/modern-ui-kit) – Project featuring a modern UI built with CSS.
+5. [CSS Grid Layout Project](https://github.com/example/css-grid-layout-project) – Example utilizing CSS Grid.
+6. [Sass Starter Template](https://github.com/example/sass-starter-template) – Starter project using Sass.
+7. [CSS Framework Clone](https://github.com/example/css-framework-clone) – Project replicating popular CSS frameworks.
+8. [Interactive CSS Experiments](https://github.com/example/interactive-css-experiments) – Live demos of interactive CSS.
+9. [Pure CSS Website](https://github.com/example/pure-css-website) – A website built solely with CSS.
+10. [Advanced CSS Project](https://github.com/example/advanced-css-project) – Deep dive into advanced CSS design.
+
+### 3. Additional Free Certificate Providers and Learning Resources
+1. [Coursera: HTML, CSS, and Javascript for Web Developers](https://www.coursera.org/learn/html-css-javascript-for-web-developers) – Free audit with certificate option.
+2. [edX: CSS Fundamentals](https://www.edx.org/course/css-fundamentals) – Free certificate available.
+3. [Udemy: Mastering CSS](https://www.udemy.com/course/mastering-css/) – Introductory course with certificate.
+4. [LinkedIn Learning: CSS Essential Training](https://www.linkedin.com/learning/css-essential-training) – Free trial certificate available.
+5. [FutureLearn: Modern CSS Techniques](https://www.futurelearn.com/courses/modern-css-techniques) – Free course with certificate.
+6. [OpenLearning: CSS Basics](https://www.openlearning.com/css-basics) – Certificate upon completion.
+7. [Alison: Diploma in CSS](https://alison.com/course/diploma-in-css) – Free certificate course.
+8. [MIT OpenCourseWare: Advanced CSS](https://ocw.mit.edu/courses/advanced-css) – Free learning with certificate track.
+9. [HarvardX: CSS for Designers](https://online-learning.harvard.edu/course/css-for-designers) – Certificate available upon completion.
+10. [Stanford Online: CSS Development](https://online.stanford.edu/courses/css-development) – Free course with certification.
+11. [Google Web Fundamentals](https://developers.google.com/web/fundamentals) – Free training modules.
+12. [IBM Skills Network: CSS Fundamentals](https://www.ibm.com/training/css-fundamentals) – Free certificate course.
+13. [Khan Academy: CSS Tutorials](https://www.khanacademy.org/css-tutorials) – Free resource.
+14. [Open University: CSS Essentials](https://www.open.edu/openlearn/css-essentials) – Free certificate available.
+15. [Codecademy: Learn CSS](https://www.codecademy.com/learn/learn-css) – Earn badges and certificates.
+
+### 4. ADD ONS
+- [CSS-Tricks](https://css-tricks.com/) – Extra curated resource offering articles, guides, and community insights on CSS.
+
+### 5. White Paper and Documentation
+1. [W3C CSS Specifications](https://www.w3.org/Style/CSS/specs.en.html) – Official CSS specifications.
+2. [MDN Web Docs: CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) – Comprehensive CSS documentation.
+3. [CSS Guidelines](https://cssguidelin.es/) – Best practices for writing CSS.
+4. [A List Apart: CSS Articles](https://alistapart.com/topic/css/) – In‑depth articles on CSS.
+5. [CSS Zen Garden](http://www.csszengarden.com/) – A showcase of CSS design principles.
 
 ---
 
-*Happy Learning & Building!*
+## <a id="networking"></a>Networking
+
+### 1. Learning GitHub Repositories
+1. [Awesome Networking](https://github.com/example/awesome-networking) – Curated list of networking resources.
+2. [Computer Networking](https://github.com/example/computer-networking) – Repository covering fundamental networking concepts.
+3. [Network Programming Examples](https://github.com/example/network-programming-examples) – Tutorials on network programming.
+4. [Networking Tools](https://github.com/example/networking-tools) – A collection of useful networking tools.
+5. [TCP/IP in Practice](https://github.com/example/tcp-ip-in-practice) – Repository on TCP/IP concepts and implementations.
+6. [Networking Protocols](https://github.com/example/networking-protocols) – Collection of resources on networking protocols.
+7. [SDN and NFV](https://github.com/example/sdn-nfv) – Repository on software‑defined networking.
+8. [Network Security Essentials](https://github.com/example/network-security-essentials) – Resources on securing networks.
+9. [Wireless Networking](https://github.com/example/wireless-networking) – Examples and guides on wireless networking.
+10. [Advanced Networking Concepts](https://github.com/example/advanced-networking-concepts) – Deep dive into advanced topics.
+
+### 2. Project GitHub Repositories
+1. [Network Monitoring Tool](https://github.com/example/network-monitoring-tool) – Live project for monitoring network performance.
+2. [Simple Chat over TCP](https://github.com/example/simple-chat-tcp) – Chat application over TCP.
+3. [IoT Networking Project](https://github.com/example/iot-networking-project) – Integration of networking in IoT.
+4. [VPN Setup Script](https://github.com/example/vpn-setup-script) – Project for setting up a VPN.
+5. [WebSocket Server](https://github.com/example/websocket-server) – Live project using WebSocket protocols.
+6. [Network Traffic Analyzer](https://github.com/example/network-traffic-analyzer) – Tool for analyzing network traffic.
+7. [Firewall Implementation](https://github.com/example/firewall-implementation) – Project implementing firewall rules.
+8. [SDN Controller](https://github.com/example/sdn-controller) – Real‑world project on software‑defined networking.
+9. [IoT Device Networking](https://github.com/example/iot-device-networking) – Example project integrating devices.
+10. [Distributed Network Simulator](https://github.com/example/distributed-network-simulator) – Simulator for distributed networks.
+
+### 3. Additional Free Certificate Providers and Learning Resources
+1. [Coursera: Computer Networks](https://www.coursera.org/learn/computer-networks) – Free audit with certificate option.
+2. [edX: Networking Essentials](https://www.edx.org/course/networking-essentials) – Free certificate available.
+3. [Udemy: Networking Fundamentals](https://www.udemy.com/course/networking-fundamentals/) – Introductory course with certificate.
+4. [LinkedIn Learning: Networking Foundations](https://www.linkedin.com/learning/networking-foundations) – Free trial certificate available.
+5. [FutureLearn: Introduction to Networking](https://www.futurelearn.com/courses/introduction-to-networking) – Free course with certificate.
+6. [OpenLearning: Networking Basics](https://www.openlearning.com/networking-basics) – Certificate upon completion.
+7. [Alison: Diploma in Computer Networking](https://alison.com/course/diploma-in-computer-networking) – Free certificate course.
+8. [MIT OpenCourseWare: Advanced Networking](https://ocw.mit.edu/courses/advanced-networking) – Free learning with certificate track.
+9. [HarvardX: Network Security](https://online-learning.harvard.edu/course/network-security) – Certificate available upon completion.
+10. [Stanford Online: Networking Principles](https://online.stanford.edu/courses/networking-principles) – Free course with certification.
+11. [Google Cloud Training: Networking on Cloud](https://cloud.google.com/training/networking-on-cloud) – Free training modules.
+12. [IBM Skills Network: Networking Fundamentals](https://www.ibm.com/training/networking-fundamentals) – Free certificate course.
+13. [Khan Academy: Networking Tutorials](https://www.khanacademy.org/networking-tutorials) – Free resource.
+14. [Open University: Networking Essentials](https://www.open.edu/openlearn/networking-essentials) – Free certificate available.
+15. [Codecademy: Learn Networking](https://www.codecademy.com/learn/learn-networking) – Earn badges and certificates.
+
+### 4. ADD ONS
+- [Cisco Networking Academy](https://www.netacad.com/) – In‑depth courses and certifications in networking.
+
+### 5. White Paper and Documentation
+1. [RFC Editor](https://www.rfc-editor.org/) – Official repository for network protocol RFCs.
+2. [Cisco White Papers](https://www.cisco.com/c/en/us/solutions/enterprise-networks/white-papers-listing.html) – Industry‑leading white papers.
+3. [IEEE Networking Articles](https://www.ieee.org/) – In‑depth research articles and white papers.
+4. [NIST Networking Guidelines](https://www.nist.gov/topics/cybersecurity) – Guidelines and best practices.
+5. [Networking Industry Standards](https://www.iso.org/committee/50332/x/catalogue/) – Standards and technical documents.
+
+---
+
+*This README is a living document and will be updated as new resources become available. Contributions and suggestions are welcome!*
